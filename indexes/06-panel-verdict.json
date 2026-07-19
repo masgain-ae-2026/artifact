@@ -1,0 +1,1410 @@
+{
+  "records": [
+    {
+      "program_sha256": "ad871110734bcac74c4ba795670f5a1207048e0900fe4dcd38b8dc152b111ef8",
+      "review_record_sha256": "007d877d46cc6193fbdd784fa2201e2af0f65aa709fbf9c3edf85556797eea8b",
+      "verdict": "faulty"
+    },
+    {
+      "program_sha256": "75a491e982271e9dc41dd0ee1bc2ef0c141903c5d9b5b2de8616d70682f97188",
+      "review_record_sha256": "03fb2e83c3b0c5940e4e64c4f7f6319811d3ee1784a31813d38f169c589a0de7",
+      "verdict": "correct"
+    },
+    {
+      "program_sha256": "fd4590ea14307703936becc45da7f34bdf54919c877a1b01b356343cb23fdaff",
+      "review_record_sha256": "05a191020c3632677120111110e2a7798f00593851de957cbab5a630506ac0aa",
+      "verdict": "faulty"
+    },
+    {
+      "program_sha256": "8a0defb32b6d1976e6aae94d14a1b0392f0bc74cf256189f0711cb988165adcb",
+      "review_record_sha256": "074fdb18fea07462af591db19c2c8f541bdcefa04386fe360801c3c322a4d42b",
+      "verdict": "faulty"
+    },
+    {
+      "program_sha256": "7702e41075d571e1686a8c1a03d2bb0d3c9bc3b1a5ee3dffe236912822f459ef",
+      "review_record_sha256": "083b4a6b0eeb760b3d6474e09694c26aeeb7dc671fce2f1dcd626904b4eb8b92",
+      "verdict": "correct"
+    },
+    {
+      "program_sha256": "2bbfbf2d74f8a383e053f9f14be776b8591a53fb1ba3e509cd0c080aba9fb407",
+      "review_record_sha256": "09362e666bdab2f81ad0f88ff0f8e45a26e35bf9d67053a89acb2ec13a6738ab",
+      "verdict": "faulty"
+    },
+    {
+      "program_sha256": "48769fcc46ce6188a71af8aa1f3e8d80c695babad2760be4fb350fc89039ffc3",
+      "review_record_sha256": "097794f3548b244ae64a9375797e4db1109d87e641dd5a1a7a897416a8caf8ac",
+      "verdict": "faulty"
+    },
+    {
+      "program_sha256": "38b9d31e86d82ba1340bbbcf3b6ac5da928ee4cd4eef6a5039c112253a622705",
+      "review_record_sha256": "0a21c05fa3430a746b3b3008cd4ac6ed2b36d5f0353fd340855997dac6bf1544",
+      "verdict": "correct"
+    },
+    {
+      "program_sha256": "06cab343d865291be69f48b95771f0eab4443ceab602bf48a31ef915afe06335",
+      "review_record_sha256": "0a57aa188bc11be7daebb29a416e9f275ef125136331cecfd0dca5b2acaead15",
+      "verdict": "faulty"
+    },
+    {
+      "program_sha256": "bb6bac50065f48cf6d54baa3b2cf6413f256a22b8bdf9d7db808b03783605721",
+      "review_record_sha256": "0bf2963b4c95a2915d4b704fece50a5a987b96bb5f0a845d32d67bf7fc49dbb2",
+      "verdict": "correct"
+    },
+    {
+      "program_sha256": "017cbef389047b3861fe44af8ecacedffc9997f04c3b5ad1ed66daf4e1fe9b27",
+      "review_record_sha256": "0c0193051061cf0b93b8bd41c59fb494efcbe9a1b0817bb3cf5153f861618e93",
+      "verdict": "correct"
+    },
+    {
+      "program_sha256": "9808e6c68ed16bca0109996ab2bc2c5a295982eb56e067e34f397b7d71539c9b",
+      "review_record_sha256": "0cfd8df5ab05b3ccbaebb31b5ddbdda0fa8fb42bc2c4658e95f8e759602a04aa",
+      "verdict": "correct"
+    },
+    {
+      "program_sha256": "3f048a2d40b04f2d37dfec2e6b696e3c989683fdba2493815b30c88d620a922d",
+      "review_record_sha256": "0eddf8b2cb9580c4bb406fabcd4a48432212fe074bfe80dd822efd3a24d125b2",
+      "verdict": "correct"
+    },
+    {
+      "program_sha256": "66b468f22cbabb1ab8c5c8b8acf360bf8637ec45fdcb3b57f924f855d1e82e81",
+      "review_record_sha256": "108c7db1b1ef96e76d88605614c96b0010483ee950662d02590f66972f59e65b",
+      "verdict": "faulty"
+    },
+    {
+      "program_sha256": "ea7241de930016303737b82bf07cba2dba223b498f5dbab61830c6296556513f",
+      "review_record_sha256": "11cee0b715c7de55704fc169a86ad32cb13caa645c3b5af01341bde70031f352",
+      "verdict": "correct"
+    },
+    {
+      "program_sha256": "6525ee9ea6203ee516621bdb4391f62545f136cb27c08dcd1983048cf8ae5994",
+      "review_record_sha256": "1339c39934f699120e4ed1e65b0d25d9f3e86184706117c56c2190ae5944e7a6",
+      "verdict": "correct"
+    },
+    {
+      "program_sha256": "8a57803128bbf9d7cf5d61ad2b424120961881e12a1fd332b7cb837132ff8bce",
+      "review_record_sha256": "13646a860969bbceb4717fa109255d6d97e3a9213a92973b62581faa98fe764d",
+      "verdict": "correct"
+    },
+    {
+      "program_sha256": "c8fc25cfac8b6f9fb0ce55dbfb379a382a86b9a005a4b4f8bfdbbd1d16679cac",
+      "review_record_sha256": "15dc1817fc5da4002b90cdbb380b17160d331d760ad7f62de4812ea38b0dd232",
+      "verdict": "correct"
+    },
+    {
+      "program_sha256": "c5223dba1e2806d482a7d008ba4a750e151f026303eb0446226aa8408a003b2b",
+      "review_record_sha256": "175e6f0187db416d4b8778298f7f1c44292027d61ba8975a2e22a337f232649d",
+      "verdict": "faulty"
+    },
+    {
+      "program_sha256": "1c733765afa959b3bc350718891ce550bc5b9bdd2dac03ea0421432567c5ed49",
+      "review_record_sha256": "19beaa837c51e713becfe8bef4a89ed8a3f6513b2be067b3319458a1cf4f2720",
+      "verdict": "correct"
+    },
+    {
+      "program_sha256": "15ab060b16a5f2f435f28e6332861b7e88708d7a9294162daba237407881fa0b",
+      "review_record_sha256": "1adfd7a6cde910d8aec8609d1a795fd7b06262ab6db0a4fb5526ae411527538a",
+      "verdict": "correct"
+    },
+    {
+      "program_sha256": "47931190433bb36448617d00dfa922d8b1b2bb53716b0c8cc486f7fdb6a99b78",
+      "review_record_sha256": "1da872b0b70d40f2aebe46ebabfb6fc9990ead6f1fad8b6530f8ca78c571c50f",
+      "verdict": "faulty"
+    },
+    {
+      "program_sha256": "d0888b77d24bb83d54c50a816c5c1252a96b823519914eb61820d63ff4598389",
+      "review_record_sha256": "1e65f863de11c77dd7539ec1571c3fe6d8970c57c6e0cde33e43335183fa4723",
+      "verdict": "correct"
+    },
+    {
+      "program_sha256": "f6ed1c75e82c9932c7cc097cc05ff89182eef719ff4ea4f78f108cb4aa255200",
+      "review_record_sha256": "1ec31b00929b7a1f36b4a50f958f006820916c5594ae2dd523eec7d867d79445",
+      "verdict": "correct"
+    },
+    {
+      "program_sha256": "08bb4ce9f33953a9190198bba5ffccf3f57f5c5062a431412d99f190898c1edd",
+      "review_record_sha256": "1ecaada0ca095adfe6ddc06a01687311f3fc97c2e3a43899ad2884a452947043",
+      "verdict": "correct"
+    },
+    {
+      "program_sha256": "9dfdbc826c6a86d2732e5b6cdab6e16d2e5148c474a7c7f4970cc18916dd3163",
+      "review_record_sha256": "1f77286d889f14976da1d00f64f566074a6f69e6f263d02feedcd2dccb51bb5a",
+      "verdict": "correct"
+    },
+    {
+      "program_sha256": "01fb9a5b68e4d3b77072c3e87efc43079d0d56c88f6ac40cee78619d78377fde",
+      "review_record_sha256": "1fa0721a28723161ef385677d2660aaf91c7c4cc04ac931c419ee6761d299c5f",
+      "verdict": "correct"
+    },
+    {
+      "program_sha256": "edbf69e6633647da9f62e3c88fc692a39e32afce78a9d927c3fcb60c7b0dc949",
+      "review_record_sha256": "1fc88f97d6388d82e47c9566157018823b144206c747bf2394f294cda45ad36f",
+      "verdict": "faulty"
+    },
+    {
+      "program_sha256": "06700dfdb426e2797758cb886791698878096baf4b1759d12406de2b7cb68975",
+      "review_record_sha256": "204a4d8823126129d7c2b124bd397f4fa69d7d0be360825227f9f8eadd069403",
+      "verdict": "correct"
+    },
+    {
+      "program_sha256": "73dd59ce751d99d9d2052611b54395cdfa0db074300298eae9846d953d0b3b83",
+      "review_record_sha256": "2107a2d5945709d11c90d2c50e8c74fdd95de9150d869be25a9b54f0345fe357",
+      "verdict": "faulty"
+    },
+    {
+      "program_sha256": "557f48ef18f0903aa5819565cb74451eff1e3c8e5a40a650d736276b7f56243e",
+      "review_record_sha256": "24c8c4924d991c52c73ae3ade68a94866aa42341c7e6a58cc00ba210647c8c40",
+      "verdict": "correct"
+    },
+    {
+      "program_sha256": "a35c944e6ab433ae2066dcff5fe91abdec0a444ca7921af38d1fe6cf1967c1c0",
+      "review_record_sha256": "25e2b6d6142da2d851482005c4b7b0b1ba665f732868b4cb022bd6a212d3804a",
+      "verdict": "correct"
+    },
+    {
+      "program_sha256": "543decc9bbf177d1182fd2727e5afcf37d6a68c7656bc7838a2732b58950e1f1",
+      "review_record_sha256": "281961de02e13156c20735a47769a2962e6d449e33a2d982124cac431e49877e",
+      "verdict": "correct"
+    },
+    {
+      "program_sha256": "01fab016fec6b9820fa585596b08e1162fa5b51154b4eedc79cf89d66029bb95",
+      "review_record_sha256": "2960c79b67962ad288453ee0c60c23840dcb2285cc93b3a5feb1ac584c61f160",
+      "verdict": "correct"
+    },
+    {
+      "program_sha256": "a6130d77c9bdb340955b536aba4603dfa281af8eedd34d7b154785d1d487e8f8",
+      "review_record_sha256": "2a0f892284694c76b27c068f7a2af24b680f40b969c5361feb8ba1b101afd068",
+      "verdict": "correct"
+    },
+    {
+      "program_sha256": "1c92d61ccb912b1d70f7ad60d0f04c7a9f2b6dc2384b119566b151bdba7b970e",
+      "review_record_sha256": "2c0667e76d432667e23f4f1abe2ac983b0d4e43e9d36c0217d98b8f969f073fc",
+      "verdict": "faulty"
+    },
+    {
+      "program_sha256": "fdd3fc690928905af8b524c065ff5dcafb9264bab5a0d237bcf512de07dc1af8",
+      "review_record_sha256": "2cab8c65129da8e11922980919d105666c8ff288a6ac701cefc32f2d5f1b9df3",
+      "verdict": "correct"
+    },
+    {
+      "program_sha256": "b3ccd47677445a09e5badd7545164c3c2f354f10463b5bf05d71b215264ae9f2",
+      "review_record_sha256": "2d2d861f4cb7b957d986a8b5ed7ddd4a97bf646ec1b9e7131ccd2d394e04fc64",
+      "verdict": "correct"
+    },
+    {
+      "program_sha256": "f6ac7669094ca2dd88695b44809d9f447033c63638952f84f4902015c8e9983f",
+      "review_record_sha256": "2dfa4b29bc2e50ebcf22f54ed3f7116ddf06212436bfe70632296b756e81ed92",
+      "verdict": "correct"
+    },
+    {
+      "program_sha256": "365b35eeb18c82570d85aa74736c0f3a5323d32c1de358377c8969365059dc39",
+      "review_record_sha256": "2e4ca0f3909755f5eea0eb141c2c662d90a5ccfea23ba92e414b95a9cf9b9eb5",
+      "verdict": "correct"
+    },
+    {
+      "program_sha256": "f72941de1b75a5fbd7f3123db96066bfc73eca13f7b79c1a970da0f91d04e760",
+      "review_record_sha256": "315145afa5ccdbe0747ba8d254a4a8a06ada418119327706ce744fef9e0c8cdf",
+      "verdict": "correct"
+    },
+    {
+      "program_sha256": "48636a96a3d7d92f5d5e41f5a1f34d5d155eae334eb31225ee8676db737390ef",
+      "review_record_sha256": "31b0b57c817e896f39d3d1edf229e3445743daf475360df04d73e39e4f3260f5",
+      "verdict": "faulty"
+    },
+    {
+      "program_sha256": "d3c923da4b33dfb7f1c21a9282eff82b401c55a88221b60c5bcddb81ef7cda71",
+      "review_record_sha256": "31c47c9557dfe100023bb890b20054c1d98bbfc68d5dbc4d344cc10a5d845a89",
+      "verdict": "correct"
+    },
+    {
+      "program_sha256": "0d2e8be47876ce11803e3a48cbeeb9ca2f22002fd8ddd6685109b168c2de2101",
+      "review_record_sha256": "32ca6d2bf0fe18c2dcd618ba84a010fa488507b690e7fb91311845c57e3223c7",
+      "verdict": "faulty"
+    },
+    {
+      "program_sha256": "1f90beb912ac1839a367718b7cd4423717b7ffc46ffb6196f2195fbdf0cf4c67",
+      "review_record_sha256": "38482ff8656e70b91e7d11d604a3c4f9f1d394cd8a2093637b82196ef21c3f7c",
+      "verdict": "correct"
+    },
+    {
+      "program_sha256": "86525d12fa90ad0da93929163b865df9b5bd4a2e6ecebf9b43609cc879417bce",
+      "review_record_sha256": "3919b11a9c3c6feda276df2ccd5bc9434ed9819412eb6ab9edde39c385c19a4d",
+      "verdict": "correct"
+    },
+    {
+      "program_sha256": "67856cb44cb11e54d5447c6a1a971a2c6222208645e6fb111485a858d422e5a2",
+      "review_record_sha256": "397e9f3c8c6ad8bd1b9ab379ff1ef085bb3c9083a29035c2e806d92184c873d5",
+      "verdict": "correct"
+    },
+    {
+      "program_sha256": "ab284b9b8e84b777bf60a5c49eb24f41ea546507d4df0576ebb65b295a56ae90",
+      "review_record_sha256": "3bb8dc1962541107555a25db9e08dcf8d2e2378f4a040aed8249bf9823375be1",
+      "verdict": "correct"
+    },
+    {
+      "program_sha256": "160d88319cf3e4f72e214360e89cbb17b00d061e6a599b563944e1802cc46825",
+      "review_record_sha256": "3c6b653d2d209cbe76f678d285bd10fb6c138412ca16d899ea9d8831f1880bf3",
+      "verdict": "correct"
+    },
+    {
+      "program_sha256": "10b5b24f354e85099aaf3a041746af5fac43e54205fd2655c9e94f5ad3a66b06",
+      "review_record_sha256": "3d70f60f7b22c33b8d25963ec16b8f08696b3dc748040bdf2dcb3df4539960f2",
+      "verdict": "faulty"
+    },
+    {
+      "program_sha256": "17e1e53240fcca57cfa9e97d1a20f2ab586c42ae966da17a525bfe1db786baff",
+      "review_record_sha256": "3df7078618f00e55c4e86b5abc7563ba02ceb06fca7de72ead503752c148da87",
+      "verdict": "correct"
+    },
+    {
+      "program_sha256": "94a81d5f5d579d51fd55b14a62f8228c4a7eab6be2f4b7657c4fc0be69654796",
+      "review_record_sha256": "3ecfe767267bd320855b56f7e44c8d3e7eab7d0af94476a7754bb3fbd5630297",
+      "verdict": "correct"
+    },
+    {
+      "program_sha256": "382f13ad96d03221e818428ce086a0be74ee2a90972db8c5aaf78cc93efd7a88",
+      "review_record_sha256": "3ee70d9b6ea0814fd5c3d5a8b028236fd8938773e312cb764354371993af03c8",
+      "verdict": "correct"
+    },
+    {
+      "program_sha256": "690bdbee82966c3aff2619706e1bd88c50b920d5536a1724f3a68651f1408ab2",
+      "review_record_sha256": "410fa5630527b0b155fa08322b8ea848bb2c2edd8bc4b90d252482fa5b164f32",
+      "verdict": "correct"
+    },
+    {
+      "program_sha256": "e4f6a7733a5df718b17327cd4c3bc4f609f52902b79ce5defe142aeb814d20d4",
+      "review_record_sha256": "423dc2a2a08c0769fddaedb1827c9a49a1321b48b6a8415bf88f06f772954c78",
+      "verdict": "correct"
+    },
+    {
+      "program_sha256": "6b36f4aace800964940ff3a7df5d9f8249aabb0c754d78e17826f8b7ad7d402f",
+      "review_record_sha256": "43cdc4a4d374b28c3c79317c5b73b231a69b6ee52f2a485a28da33f19a1be941",
+      "verdict": "correct"
+    },
+    {
+      "program_sha256": "9a5bec48dbfccda398ecb03e6e16fedfa9aa8960bc803000b5a4882f0c017044",
+      "review_record_sha256": "43cf1ef8772ec0b878c0089c8607ceb1252064ca8855d991c44ce0358c09661e",
+      "verdict": "faulty"
+    },
+    {
+      "program_sha256": "33cebf50633ceb74c1c57371c07a0525ea68e80a5e3fbfe1ee87427d8e2d9186",
+      "review_record_sha256": "44175d2f3b6eac2a45b730c6a120b84aac857a68ebccb58c934eb573f4362828",
+      "verdict": "faulty"
+    },
+    {
+      "program_sha256": "5c1d1d5ff41af3dd34cf62941da366e808bf216939a36d28e4453d5c344d74c8",
+      "review_record_sha256": "456e5fc0cb62a02b6e0d2f74efaba1c3298de4b1c9a7faaba1f589bf8110f753",
+      "verdict": "faulty"
+    },
+    {
+      "program_sha256": "c1ebed17ec07e3dd61f0815659b1b1e5a5eeef37795cd94ccaa246b532980d1c",
+      "review_record_sha256": "45e28282466cb25a8a4791941e8407a16eb82d31ec574b41dd413e062c0729c9",
+      "verdict": "correct"
+    },
+    {
+      "program_sha256": "72a98cb1e752409cfe7910b9d99c6782dab42d0ef42227d5ed4f574ef076c58a",
+      "review_record_sha256": "468ea6b45dc4aec03b65feceee79a5937d09bf1901086258fbec38a29aacaac5",
+      "verdict": "correct"
+    },
+    {
+      "program_sha256": "5acdcef20b7b8b809972511aab96317598c6ebdd41ed784bab2e99adf40f62bc",
+      "review_record_sha256": "4761b2fa6d9f9850e87a40108260069e6c0d0467e2f5973c593357be28242b46",
+      "verdict": "faulty"
+    },
+    {
+      "program_sha256": "d11ecb5135fe43662e0337df09cd54d864d3c505527fcb1f08b0660d269dceed",
+      "review_record_sha256": "476cfd64d922fe9fc4f7b8e1fb7b9c23b56aa2dc1205f4675b45e31a3c2e5398",
+      "verdict": "correct"
+    },
+    {
+      "program_sha256": "dc1451c7e9f26cc54fe3459e1a3f2364edc5e7de08f37378ad63a78ae1cea139",
+      "review_record_sha256": "47b1cf735c5103c851e142171675068a285e054eeb5082b8670583b4600ee541",
+      "verdict": "correct"
+    },
+    {
+      "program_sha256": "833f69dd43099629fb5140002516f204ee7cd85d5ebbe4d3508c8964fe2bf259",
+      "review_record_sha256": "4bb5a4545fd1edd68b41ae8cbc26e19db6cd314ce55d66393793be89df2adda7",
+      "verdict": "correct"
+    },
+    {
+      "program_sha256": "5fb61a5c8d63e2176e8c055cc237061e920b2a5a5fcf7c44cf10966e1c50c41d",
+      "review_record_sha256": "4c29c065b5a0a46d7cffb375c687bb16d005bde65b65e7bbf1aa6db1bc47be18",
+      "verdict": "correct"
+    },
+    {
+      "program_sha256": "991a471cbfa2f35e5a104f280afad49ecfcd544b0384546fccdca8b2415ab55d",
+      "review_record_sha256": "4db84c7219c3dadf89e168ebcdffccae24801552eca63ed8bab01d40d537dfe3",
+      "verdict": "correct"
+    },
+    {
+      "program_sha256": "e728587b2a44a71f6abd9c0e7ed2eda4e304954f30122500685291d7c9872e23",
+      "review_record_sha256": "4e747d24441ef415254ee65cb7b696ecf69ce262e494ddd7fc1ae89712e15708",
+      "verdict": "correct"
+    },
+    {
+      "program_sha256": "c0c42520894d3b2f599e8068949de8816e880831dd871c5e72ed5225a6b77ce2",
+      "review_record_sha256": "505c320556224c97d30bd0140da5894f8671ad991a5c37f6714265113d2d7f83",
+      "verdict": "correct"
+    },
+    {
+      "program_sha256": "6e1ee0506d0298cc5875839ae1d27806ee068ab19b436e317a539d2f2465a6f7",
+      "review_record_sha256": "50a8373690a17c2387f5608030912048d8da4a2e497662cb1929ac97a609ac9f",
+      "verdict": "correct"
+    },
+    {
+      "program_sha256": "d0888b77d24bb83d54c50a816c5c1252a96b823519914eb61820d63ff4598389",
+      "review_record_sha256": "542067810892b2900d5acb886d1fb01ba25d5379c302e6bf72bce0ccc0864692",
+      "verdict": "correct"
+    },
+    {
+      "program_sha256": "3ad5f2ba6604beab64c26f4aacda746c8c87e7dd84b123c07dfdf7549b2666ac",
+      "review_record_sha256": "54550405a90b45b0390df7fb32137376523859cf0be8e2b593b34677b5bbf395",
+      "verdict": "correct"
+    },
+    {
+      "program_sha256": "78f8f3bfee1346212a3f19e63f88a7d2f0bce98c895fba6ada7a11fd2fa0cd5a",
+      "review_record_sha256": "548f150a8e188bd08ee8d8f527f17b22206c5067872aa9dc226bd17a835e5685",
+      "verdict": "correct"
+    },
+    {
+      "program_sha256": "7db36b5ee5ca545d9e932014ecf502de04ac747bbc18a19180ce3f93710d367a",
+      "review_record_sha256": "54b3d87b56245d959487a3fc64ddbee4bce28d67e01a2f694be008b7afc1f3ff",
+      "verdict": "correct"
+    },
+    {
+      "program_sha256": "6e1ee0506d0298cc5875839ae1d27806ee068ab19b436e317a539d2f2465a6f7",
+      "review_record_sha256": "55956a3270d8b6d3c70ec7620c3b20a6d6eeb3cd03580e559252aa1f89b03206",
+      "verdict": "correct"
+    },
+    {
+      "program_sha256": "31c82139867f60b8ab5efb22de76463d508a4b5e7b911487cce817833dec4b8c",
+      "review_record_sha256": "57ed023af06a95c56161806f074bc3852ede46496fed74f018295699128bfdd2",
+      "verdict": "correct"
+    },
+    {
+      "program_sha256": "58cda081a3524b8f42a422adbaf65d55a4145d46560b3e9827518900b826d6b9",
+      "review_record_sha256": "58dc1bdf39349401532757f5946e18a2d2e43a218148fed34976237b1e49c01b",
+      "verdict": "faulty"
+    },
+    {
+      "program_sha256": "fd261a9dfd58097998f50da83db7651c39731f6aa3afbff22e6bb1040d0d1255",
+      "review_record_sha256": "5bf00f08a3d9458ea54e27274eeebce75389341d3c11288ac43de2dd9337e28a",
+      "verdict": "correct"
+    },
+    {
+      "program_sha256": "bcf9cff45a25266067368d8442bf76abeec754d7badbbed4f40ffbe20630cfca",
+      "review_record_sha256": "5d2bcc2c8194dcb9c48d9c3dc24f374d0042a1a354764306e356c22c8d090466",
+      "verdict": "correct"
+    },
+    {
+      "program_sha256": "f4a66abbe2ad0cc90264cb6099dcba5e7693b9d44c2fcfb3652872d56ed086f8",
+      "review_record_sha256": "5df71277dc79b6b59c02a93ade8ba9a4c7ae65e7bd2f8d156c5801b71e1bd23a",
+      "verdict": "correct"
+    },
+    {
+      "program_sha256": "06700dfdb426e2797758cb886791698878096baf4b1759d12406de2b7cb68975",
+      "review_record_sha256": "5e0d0b20a9e2c6f3e8faf3ef4addc8aee4596d21f7890783873096a37a50ecae",
+      "verdict": "correct"
+    },
+    {
+      "program_sha256": "4523f4dc99ca9435f3333cc08f9777c56391c2db23c10aeef96e678bb7a595e0",
+      "review_record_sha256": "5e63556393f089e9902af4c70af866870c202582c69915bc8a22f03e5f8343ea",
+      "verdict": "faulty"
+    },
+    {
+      "program_sha256": "89127d0546243c2dfc43249724d61ad8865c0ee7cdc66293ee5b8a687bb7414b",
+      "review_record_sha256": "602e3bc4e5d83c83ffd8e09d430a34b27bce499c8459848ce45d21584a00e812",
+      "verdict": "correct"
+    },
+    {
+      "program_sha256": "d68cc6421b2736d565d3e55124a93fed37b2abba38198ebb539b6d263b783ef5",
+      "review_record_sha256": "608b7ed0fe7d178dacba823f75feba31897e67e1bbe3a8c79992c39b172aee16",
+      "verdict": "correct"
+    },
+    {
+      "program_sha256": "4c65973bfe5285a244337e4fa5ce2e5c861e0af70dad3fb216423d4e64aaef92",
+      "review_record_sha256": "61015b597a0f94f5165f2f2223084df416df60ac1d8d18eb424f0475cf5f7fdc",
+      "verdict": "faulty"
+    },
+    {
+      "program_sha256": "6eb6334167cac68ca056eec4d43370b5e809d41342247276a79398542626d629",
+      "review_record_sha256": "6150f7b1f8538cf15523ed55be803b324616cb06e1d43e1c351c56bc42d3525f",
+      "verdict": "faulty"
+    },
+    {
+      "program_sha256": "732285094cf5e9afa748ccbe440fb2cd8ac3574af9ac2809605a406bcabee152",
+      "review_record_sha256": "6321c3f6f25fa3674dc6884e90a850d74a9675956e533ab3e05723472c4e6691",
+      "verdict": "faulty"
+    },
+    {
+      "program_sha256": "3c946328b4a5eab26b25c8ebe95ddbb948e1bbeeb7e12246f71f4f4625f5070d",
+      "review_record_sha256": "638b54ce4ce1f2bd0f118addf82b7b14283b55976098f2f65b9f7339173474a8",
+      "verdict": "correct"
+    },
+    {
+      "program_sha256": "7fc6a9e8fe92e94572e94e9316ef429fcc8bdd0247ff315ce7a8eb8b15bed451",
+      "review_record_sha256": "644ad26cbe371979b74b67359b747a3bb5dce4a15122f422be82dbc33b3a059e",
+      "verdict": "faulty"
+    },
+    {
+      "program_sha256": "15ab060b16a5f2f435f28e6332861b7e88708d7a9294162daba237407881fa0b",
+      "review_record_sha256": "64b72ef8c93f49b5f29c769b8df3d9adc87cc61c4a3c36a1f89e70ecaae3d476",
+      "verdict": "correct"
+    },
+    {
+      "program_sha256": "6eb6334167cac68ca056eec4d43370b5e809d41342247276a79398542626d629",
+      "review_record_sha256": "65cec3344e3b7957d8d240380c9dc0c35338eb054670d33316edf56a6421112f",
+      "verdict": "faulty"
+    },
+    {
+      "program_sha256": "78726519a992ae6e45c3f6e16112a363b481e3ade967cb5e593a4e8e28b2ea84",
+      "review_record_sha256": "661830694a2fa6335bf1f70596312f0dafac9eb2c075ae4cf157daf561b8ca26",
+      "verdict": "correct"
+    },
+    {
+      "program_sha256": "313fe9afd58b5b058514c91a29821512637ef32707f6e3c0113cf39fbad1226e",
+      "review_record_sha256": "662d2b1473f73673e5eaa9ee696ed799e813d577e14f3abac38af977f49d889b",
+      "verdict": "faulty"
+    },
+    {
+      "program_sha256": "018b75d0c28e1b82859c36710a16c45fa247a941e739e7676bb7f1f3ad5b01df",
+      "review_record_sha256": "66df250273a1faae5e27f6c2c0f6959bf1794690f719b87dde7f979654520e50",
+      "verdict": "correct"
+    },
+    {
+      "program_sha256": "d2b53e175bbcc8426f3dea7d1349cd1c8bee56ebac9fa2c69eae1116aba3b9c9",
+      "review_record_sha256": "68593f93302c90caea5cf42ac438dac5ec4d5da64ad1c2c5987dd74c26dea6fb",
+      "verdict": "correct"
+    },
+    {
+      "program_sha256": "b0c65c90f2f255fcbae2bf1a4ef2dfb91ded7bbbc5e93a3d15bd7e33ee8d16ed",
+      "review_record_sha256": "6982eafb29b7724623a63125866f41fdd0c6798a65c1b1c0d514c3b75599d651",
+      "verdict": "correct"
+    },
+    {
+      "program_sha256": "7db36b5ee5ca545d9e932014ecf502de04ac747bbc18a19180ce3f93710d367a",
+      "review_record_sha256": "6a0f53f92decf689933d3de79e2c090103e007ea1e3ba83889ead479e2bdae58",
+      "verdict": "correct"
+    },
+    {
+      "program_sha256": "eab24746fb62a96a48485d9616feac8cdee281fd4a9abc55224897c376725097",
+      "review_record_sha256": "6ba4bc33e7ca389190f6c90f7eeccdc47c39d8113e2b0b7a7755e30e00a36d7a",
+      "verdict": "faulty"
+    },
+    {
+      "program_sha256": "894a45912d495560e907a4e16d37f9a7649892f25e34a67058e85988370abde8",
+      "review_record_sha256": "6c262dba1f14136dd8fbae6dcd5ccface1da2d3127603423536e3ccfb5cb1c5f",
+      "verdict": "materially_ambiguous"
+    },
+    {
+      "program_sha256": "1b359fc6cc127cb4f825d6e65df42549cfc0d487bf95ebf63b09ea98f5518f8c",
+      "review_record_sha256": "6d0b6b3ce883d1d8850e583b2553ab4e95a6397df17b4d2f58afbdf4a2213ad7",
+      "verdict": "correct"
+    },
+    {
+      "program_sha256": "d106fa782b20effe732a9eac5e3e1a2fc714d77934518dbc0a84df93ee448508",
+      "review_record_sha256": "6d22d2c2c4a032ff2d2d5e3ab3430dc748087150d866c2e0f4ba8fdb01f7b5e3",
+      "verdict": "correct"
+    },
+    {
+      "program_sha256": "4ba8da45125e1b15fe2ea0001e5022ba4b90278b8ea274b95a1313674230fab3",
+      "review_record_sha256": "6dd4107592fcdc58950816f9a8041f81aad1394ac71f776d7fc0d49660e6e90a",
+      "verdict": "correct"
+    },
+    {
+      "program_sha256": "94e2f26f8992f2e89a790754e4964a93070ccaac1e815ed4941ce3afaa310a53",
+      "review_record_sha256": "6e3dcfd50db9b910a94a83a42af9305ca65641047ca8714effa17c0b12c3c9e9",
+      "verdict": "faulty"
+    },
+    {
+      "program_sha256": "00f2c2e46fa065a46b381a35095e3a4dac5948a79e1ef988b0a2a212eb62c8b3",
+      "review_record_sha256": "6e6e6041178cd00bf378dc53e7283e2e0ba4bff3e3cf7094f05c91b04adcd8b3",
+      "verdict": "correct"
+    },
+    {
+      "program_sha256": "7df0b14854a03497fb3147e5bded11bb8be76d1356be168ef39ea5b0c27824f1",
+      "review_record_sha256": "6ee8ee74d681f1930e7313f77e34dd561f87517300bb3a8ec094c703f6b9b804",
+      "verdict": "correct"
+    },
+    {
+      "program_sha256": "dcb1d28c79575f76b1bb5f192225152589ba56ae9d334ec4cfe8b89ae66f392d",
+      "review_record_sha256": "6f0624d84909c5b5c960edcd9e1ae0275dac1428f270ac2a789d39aac9fbe7c8",
+      "verdict": "faulty"
+    },
+    {
+      "program_sha256": "d287a060b82f117fdd73c4e271b8d6f78870d13bed5157621d2c94b407bf6747",
+      "review_record_sha256": "6fd5ffd2b773c2bc24fc4e0c908fbe684955c95e83e88afe855a085711a8777f",
+      "verdict": "correct"
+    },
+    {
+      "program_sha256": "4f645277deb76efb75ef0e46e0ab7d3c9785f7264080f32115c99308b94f96d6",
+      "review_record_sha256": "712812a1133f79e26098d2b193907eec0f44d446767a009329b7e878107610ce",
+      "verdict": "faulty"
+    },
+    {
+      "program_sha256": "12c17100dc1095b6ef81ef0cc244a5bd12c5d193ba49cbdeb91a47d09ea6a141",
+      "review_record_sha256": "71acfd1e9682ee508b7e0c1610d581c8368a6f2e6b07a98901ead2cd044c3c7a",
+      "verdict": "correct"
+    },
+    {
+      "program_sha256": "e6bc996a552adf48f02857d35c84681958cf383d3ae1877ec852d8a155da47e0",
+      "review_record_sha256": "742118b7034fc5fa5dd260341519d3d68423da46602c4c2d2694111a854de7d2",
+      "verdict": "faulty"
+    },
+    {
+      "program_sha256": "e4c3e243474caa31f54440306644bd813d437792330702c9a237c4feb9970cde",
+      "review_record_sha256": "7437741e638a615cc1f2004a3c6be35c3d221c8c392737df165135f3d4d57f67",
+      "verdict": "correct"
+    },
+    {
+      "program_sha256": "696d58dac28bfbd3901021a01e32bf71a1198c0eed48db9ea525d8a0c5fb5b9d",
+      "review_record_sha256": "74afcc4c2e9b0da40e32e3ed9a15af65b5893426a3361c1368cd77c5774af5e1",
+      "verdict": "correct"
+    },
+    {
+      "program_sha256": "2709c10fc991db07a8c2b195cf65b6f4e949e64cbef607fa8fa7fc6c080266e2",
+      "review_record_sha256": "765c5c5a5cb66c5c51a2ed1ab180b957d368b6c05e05f5124aa9590ffef74706",
+      "verdict": "correct"
+    },
+    {
+      "program_sha256": "50c73ec6b7ec5ffcfcbb4d79018f1050e853fe335a064e26ed3c8b8d285d0b9e",
+      "review_record_sha256": "766236cf5d2755e0fd1e9c9e71fdcc82fc90affd2005b40760f19689bc1b0885",
+      "verdict": "correct"
+    },
+    {
+      "program_sha256": "00333561897b9093bd42b9fbc447d86e88a3816afb71da59f05557679183315f",
+      "review_record_sha256": "766b7e0011e6e6295580f404fbb262294588dad3f471d9cab7e89a070b7f3dba",
+      "verdict": "correct"
+    },
+    {
+      "program_sha256": "6a05d6bc15ed49043a76d046594379ee3ac741682f4461864cd6aa89ebab6b27",
+      "review_record_sha256": "785e3a1566b58d696774594b4b83fb0f65a4f0d0aa736c561456dff233a4b6e0",
+      "verdict": "correct"
+    },
+    {
+      "program_sha256": "95775f95243e7dfe353fff45ee37d5a199ab37346f270b9117522dd49f171da9",
+      "review_record_sha256": "786bc41513cbe413fa891512b4416ae05a5033afc15b9ebeaf0bcc12f6fee4fd",
+      "verdict": "correct"
+    },
+    {
+      "program_sha256": "a49ee8ac2d12d42fb92061bc3c365ea798edc509c04629926d83b4e2cccaaf43",
+      "review_record_sha256": "786f14296f5b58092f483ce21172294911c40ce49ab023f9784660fc2937bd5d",
+      "verdict": "correct"
+    },
+    {
+      "program_sha256": "5fec75c1e3c519c29c52bf5862f86b20b50a483c59d4287bf041459087ffaffd",
+      "review_record_sha256": "7972020073c88d09dd3f91776dac3652afc0a2bc75b286275646572a66994fb2",
+      "verdict": "correct"
+    },
+    {
+      "program_sha256": "833f69dd43099629fb5140002516f204ee7cd85d5ebbe4d3508c8964fe2bf259",
+      "review_record_sha256": "79d1ea847396bb6b2946f14e12438799f8694d5b199897056e60a0a03ab4aee3",
+      "verdict": "correct"
+    },
+    {
+      "program_sha256": "f239ee27c468f029e831122bd56b39404ff1aac2b2d3c1660670122ccfb2ac76",
+      "review_record_sha256": "79db631c5b1cd9a293589c40a1c13907ae017febe34e92427f65c5a4ffb1bb5b",
+      "verdict": "correct"
+    },
+    {
+      "program_sha256": "76d117823cc2ef86f5d23ac4cf0700b13d863af3a827795f65bdd4b787c06c95",
+      "review_record_sha256": "7c6debe3396fa489f0e97fdc06a9399c084724ef4be8d687bf4cc09a0dfca833",
+      "verdict": "correct"
+    },
+    {
+      "program_sha256": "9a5bec48dbfccda398ecb03e6e16fedfa9aa8960bc803000b5a4882f0c017044",
+      "review_record_sha256": "7e6767a04d99dd83f8c167c86362989208ca42a13517695c6fc8fb32387ed0dc",
+      "verdict": "faulty"
+    },
+    {
+      "program_sha256": "886b11169c246962549191372853ed7e4af738fe988bac182234d23fbc14d901",
+      "review_record_sha256": "7edfda57ca8cdf7c0511f60f2fa61968baf021469084c84f0b622c87e9b9f80f",
+      "verdict": "correct"
+    },
+    {
+      "program_sha256": "8e4a8046c0950efa3198b21256d8ebffa2a5431787f1b71714101c0f8ab62ba7",
+      "review_record_sha256": "7f91ed95f1ad1761f7abaada61cc3ff94555d9ece59b7e5dbea792b71fbb0f54",
+      "verdict": "faulty"
+    },
+    {
+      "program_sha256": "26050b443d2869e3b3412b69dfac681b49e5eece6a67a529d0e7fd8357786fc1",
+      "review_record_sha256": "7f9dea2e87e9c4995e6905f037d8999da95d2d42b0b23235c79cc34403ac1a52",
+      "verdict": "correct"
+    },
+    {
+      "program_sha256": "67856cb44cb11e54d5447c6a1a971a2c6222208645e6fb111485a858d422e5a2",
+      "review_record_sha256": "7f9f1caa484537ec758c4188cc08b0c9fa1f8688049db86e9ac22637cb4a6105",
+      "verdict": "correct"
+    },
+    {
+      "program_sha256": "349c390cd88841e6302efd668157652ae5afd16df422540bb828d9517d977fbd",
+      "review_record_sha256": "80a07d851e00b2f51f67517a98c425bcf152560d913ef9a514424d0ee0c63013",
+      "verdict": "correct"
+    },
+    {
+      "program_sha256": "73c28777a27d64921101ab86df4da19c638c192b70020fe337ae1f3b6faf954b",
+      "review_record_sha256": "8252d5a6dd8b16d92444baeef6a643759c65e9207e3c8fc24c2eee563382fbe7",
+      "verdict": "correct"
+    },
+    {
+      "program_sha256": "7aab1c30646f27ff66633aa8d24cfb23ce362dd41663803d5dc54e66bab895e1",
+      "review_record_sha256": "83a09fcc117d08acc98dfa77c45ef348b9194d7f3835bdb7d781ba2fd26c254c",
+      "verdict": "correct"
+    },
+    {
+      "program_sha256": "7ed03ef90ffd816dab6a2d2d45eb4e760a9f3cab87764da9f07a6d6744c9be2c",
+      "review_record_sha256": "84836a30e571f79659414ec246e9f9dcaea89475899b812c0669b1a20f2237ee",
+      "verdict": "faulty"
+    },
+    {
+      "program_sha256": "83abe2c9eeb8971ba301d045e998dc108c0f813bee17a3da97b5ba531017965e",
+      "review_record_sha256": "84b4880a764f9493f68f0055cf592225e8c2f516cde81c2d50871c2370f011dd",
+      "verdict": "correct"
+    },
+    {
+      "program_sha256": "05669f8e55d76ba142001a85cb96e72f73514c9baa05b984bf717da066c63f0e",
+      "review_record_sha256": "84e4836fa41a56659c549071b2fc92d9463274a1845e018629d4bfb32d4221d1",
+      "verdict": "correct"
+    },
+    {
+      "program_sha256": "9dfdbc826c6a86d2732e5b6cdab6e16d2e5148c474a7c7f4970cc18916dd3163",
+      "review_record_sha256": "85ffa3b311567805cf7a1d6ca81a018eb986bc00420c507df4bd59f554923c88",
+      "verdict": "correct"
+    },
+    {
+      "program_sha256": "b3ccd47677445a09e5badd7545164c3c2f354f10463b5bf05d71b215264ae9f2",
+      "review_record_sha256": "87091388909ac882f1176720b06f6dea7096fa45a44ec4ac2520d502b85ec9ab",
+      "verdict": "correct"
+    },
+    {
+      "program_sha256": "9c0a57d5ee21a38c5873ec76ec71185fe5c7ea3d68c2cb233f1a53a83aec9a25",
+      "review_record_sha256": "874dfd0a8b2a4d35fa2f0d1ca050f0030e5be8d7b00179728d6a5286a0d4c787",
+      "verdict": "correct"
+    },
+    {
+      "program_sha256": "a8cd7ea3ed92055d5af28a83246f73bebebc7127bf1f35508f431ca023e68e9a",
+      "review_record_sha256": "883d6679c1dbaed2db51a0e5a37fa828389476a142ac85044ee41ea7572ccc85",
+      "verdict": "faulty"
+    },
+    {
+      "program_sha256": "ca3a9ed15dd692cda596eb364c7b9902869d6f0eaa23d3c712d3e6f4cc216a4c",
+      "review_record_sha256": "884974a5f2ab56226b1626fd7827f00743c907e87c1da373a6b32aac18c1b5e3",
+      "verdict": "correct"
+    },
+    {
+      "program_sha256": "c4c40b25f3839511cc1e3e861fd15ef684272b55112f3a8fb9d059480fc3a236",
+      "review_record_sha256": "896cd23317a8fcd4451c5e7367f3c3c8d8067989f575e798442431bae7bbd502",
+      "verdict": "correct"
+    },
+    {
+      "program_sha256": "b6227f7fe395decaea1fe80fd22d4959f0eb92c7c8eb921b3c7ece92e6477714",
+      "review_record_sha256": "8aeef30cd64b1645213985240903041b976b8dcdfbe725fbcb08d7f6a53fb7d8",
+      "verdict": "faulty"
+    },
+    {
+      "program_sha256": "0f54be8a1e056c43cb413dfc07306e561fc2b5cd9e46ec1e0916ce8681f57028",
+      "review_record_sha256": "8b142b15228f136e98a7289a78ed1b71db8936471ec11ba1ba59715da55cb74d",
+      "verdict": "correct"
+    },
+    {
+      "program_sha256": "9c629b7f81a38300c9d97e30a42af1d8e93b2778cde856f87b0caaed0e30d39d",
+      "review_record_sha256": "8c2c97fbfa8e99bcb092047745eb4680904f25b38dafe94fd042ae5d21452872",
+      "verdict": "faulty"
+    },
+    {
+      "program_sha256": "09a8f435944ff30415d8f43f41cc15b6beda2b92de5cc5209f9837a6ae12fe99",
+      "review_record_sha256": "8c32e90269102754a6bfb886eb17ab03c7a31c4145d68867b03185de34fc8212",
+      "verdict": "correct"
+    },
+    {
+      "program_sha256": "ee3c88b43a7ab69501d79315515f7c38ceef335331d03b743ef29b5cd895e645",
+      "review_record_sha256": "8cf7355a2b69ddba9247db7751911d13d52a467cf2d29d2ebe434e910e4d4058",
+      "verdict": "correct"
+    },
+    {
+      "program_sha256": "31a4230e3bb3f17339f69a3aae360c93d60618200b74122544e4ba11ffc5e74d",
+      "review_record_sha256": "8d08f182a3351d3a2241c424dee788a4e5776b691617ac5c2e924f1796608b63",
+      "verdict": "correct"
+    },
+    {
+      "program_sha256": "2adc7b10c37a01ce8d62fa5afbdccf341e847b50adbbf1dcc910ca0b62388a3a",
+      "review_record_sha256": "8d0e8aa326e88d2920a7e752fc3b10a49115c00fb96eac547aab28806c153bf1",
+      "verdict": "correct"
+    },
+    {
+      "program_sha256": "5a8aade7c77b433cefc687b4c62ed06ad2082457e6b7a7c2e5b9d36aafa70cef",
+      "review_record_sha256": "8d4a34e26b2dddd0a8a4ee4b7b6cc47f01c27c6c6f2e58d4f4c27cd26b812bd0",
+      "verdict": "correct"
+    },
+    {
+      "program_sha256": "80fbf4575843881766487912722e5d1d75b9e079d50cd7cad27dd8adefad5642",
+      "review_record_sha256": "8d74fa0191605e24ed658f23462531a091d63f5f12e72b70d174b64ccb949dd2",
+      "verdict": "correct"
+    },
+    {
+      "program_sha256": "d225dad9f8e2f3cba960c542dd6e4c2e2301be198ead63fd3345a4b0fc099f8d",
+      "review_record_sha256": "8da60690b95f4ca2303a66477765807e946189f89e3e1eb3459659937e72edfa",
+      "verdict": "faulty"
+    },
+    {
+      "program_sha256": "8efd578959bcc04c65ce6172402b9a76ab5b25ed09220fd6914b0299acece4e5",
+      "review_record_sha256": "8f7b70247c9356f9a1840d73d42701afdcbddd01a2cc1e45a09db292dc276238",
+      "verdict": "correct"
+    },
+    {
+      "program_sha256": "a03496a45f68727b56a5686a569c663fa2b78772369203a861aa21c766a92113",
+      "review_record_sha256": "8f8cc97de1b72bb4b832358d5560af36111d200925b6456f678292b27ddc6bd3",
+      "verdict": "correct"
+    },
+    {
+      "program_sha256": "b221fbddbadc059a8fc5a1872f9ebfa945c2f2f57cb9146f6d2ca9282799f0b6",
+      "review_record_sha256": "905b2d1d3cdc3a04c6bba07d87a0cd92aacd3f12eac85527df19a23976266bd0",
+      "verdict": "correct"
+    },
+    {
+      "program_sha256": "8954665eaeb6fa0668e3a5828f5ea4e3d42bbecb99d933242d593402f842a602",
+      "review_record_sha256": "90c9cdab43e62ad0b7240336b3b8482e2139938e4858b721204b4e7af66a4b9a",
+      "verdict": "correct"
+    },
+    {
+      "program_sha256": "5ce5b3aaac1e04c76b13f19de58bf73701fc20a8921c400fd466b80a3e3cc46d",
+      "review_record_sha256": "93ff8b08161a2673205fb18c78a01f78a26efaf96ee37f6c3baa5cadaff7cf66",
+      "verdict": "correct"
+    },
+    {
+      "program_sha256": "22f0620770a8080192e6e96a1a32ee409192444cc550dd84f4e5dd66264ee3c9",
+      "review_record_sha256": "95062331c5e8d2d1cf49e0d6fd727dc06d0ccd2cfbd4b90ade0fe614573ea162",
+      "verdict": "faulty"
+    },
+    {
+      "program_sha256": "fd261a9dfd58097998f50da83db7651c39731f6aa3afbff22e6bb1040d0d1255",
+      "review_record_sha256": "96981b0a4054e766d40319c24ba8ca34d7449ce6672ff4f855c98eabb334f451",
+      "verdict": "correct"
+    },
+    {
+      "program_sha256": "93fa6da9def9b55b27271b25315ca93c291d67cacac6cf16c12d420d1897d0b8",
+      "review_record_sha256": "970379d142e0a8ed50a61383b18cf9d58babfe2affb0a92be2e8bc1182b99b34",
+      "verdict": "correct"
+    },
+    {
+      "program_sha256": "9d6c6ab83fd20ba08da53ea06c3a4f0462550eeec0673ce89e4ecd65771105e9",
+      "review_record_sha256": "970fa0c6f93b2069c753262c5ce1e2a747ea84c8473940573e191b0a2f9d1bce",
+      "verdict": "correct"
+    },
+    {
+      "program_sha256": "918c66ecdd3d833707fea511d59f18714ccbbbd7baf2583dbcc2e76020d82042",
+      "review_record_sha256": "97cd806acc3026b372bb8f4a60fb291eaa359bcd9cc1cd83d4c3280c7fe7f868",
+      "verdict": "faulty"
+    },
+    {
+      "program_sha256": "2f6b21f820e5382c9566963d5c87bd1480f028db998ae6f898bfcde0f8b5c7e2",
+      "review_record_sha256": "97e813f918aad804dc7485fee25eb6ea46e01f355de5501a26c0b4510f7e9217",
+      "verdict": "faulty"
+    },
+    {
+      "program_sha256": "b7ae6a37feca453ef212c9638a1be2306b6b187549affd8c3205574b2bf36b59",
+      "review_record_sha256": "988e87be8628626e94e91ce80b0d77ad83cb4fe88e79007bcf52c8408345a061",
+      "verdict": "correct"
+    },
+    {
+      "program_sha256": "b4ec43d05d3f640451f924110177a34e791640e24376971663afc8398ae67f6f",
+      "review_record_sha256": "98d8bf735a9d288e03465a76b4d3ab48367ce437986a8fc33a5c9ca055070910",
+      "verdict": "faulty"
+    },
+    {
+      "program_sha256": "88c9778bf8288e21afced417c1d6c588cea998ce203ae73274d3838ec335dfed",
+      "review_record_sha256": "9912c122e329327039fccefb8031386f76270733b7817cce8bcaa315d3eeb92c",
+      "verdict": "correct"
+    },
+    {
+      "program_sha256": "404c9381c69c68ccf8cda3140e4a56120135c2ffb7d03ef2bc5cf6ed4cef3602",
+      "review_record_sha256": "994ef06b99c4a1afdc399217a0e515fabddfc7a1b60ec8bd9343a16fb36e9bd6",
+      "verdict": "correct"
+    },
+    {
+      "program_sha256": "a033b6eded868dc8b9e29f7052ef5ff1631d778e575379fef5d867d68d8e5b4f",
+      "review_record_sha256": "99b13bc66dd7b259d7c12154c1d7310d20009c761fedc27b5de9b711ba0b574a",
+      "verdict": "faulty"
+    },
+    {
+      "program_sha256": "7c2eeadc04f9ddaa6294976aa5c47e0fab955706b35c5337c090d1eec01c98a7",
+      "review_record_sha256": "9b5d2939e2701916eab1a8b3458385e93d1b6364b5536be1f2a429483528d940",
+      "verdict": "faulty"
+    },
+    {
+      "program_sha256": "72a98cb1e752409cfe7910b9d99c6782dab42d0ef42227d5ed4f574ef076c58a",
+      "review_record_sha256": "9bdb3ce202e022c41013b3e4ef2e01f441665641f2c8100b35f4d15f727eaa12",
+      "verdict": "correct"
+    },
+    {
+      "program_sha256": "a465ea29913bc641103dc9ce17289b08e2c97d3417c6bb65d13220c1f0e5e0ef",
+      "review_record_sha256": "9eb2a6a049ef6ff535667c6b7d9ac10edc2f02857105c27e6dcea4c3c3dfc1b8",
+      "verdict": "correct"
+    },
+    {
+      "program_sha256": "991a471cbfa2f35e5a104f280afad49ecfcd544b0384546fccdca8b2415ab55d",
+      "review_record_sha256": "9ece4008c1843090351d907362fc2da6e0d4b9bf7da44b5fee8ce06a6f0c88de",
+      "verdict": "correct"
+    },
+    {
+      "program_sha256": "b1aae962d2060e492ba07e0842fa11efb4952231b57c14c0d38c49b28baf05ab",
+      "review_record_sha256": "9ff9d235d7d2d04d8871fd381dcb9eacf089a6443623a1a21e42216fd10654e6",
+      "verdict": "faulty"
+    },
+    {
+      "program_sha256": "172d32b1198ad85997f9a109a4ab41b786405119450d32002226be47b0dddcc7",
+      "review_record_sha256": "a032ded8f34a259892a37019041c9fb7d72aeea32f01e38219453a8f4d5afe4c",
+      "verdict": "correct"
+    },
+    {
+      "program_sha256": "f9328a7c8248d6fdd82d357b6daaa346b7ffb91f2e4862be210b8bde19b29631",
+      "review_record_sha256": "a079d2a1ebc3cf71524d7c26aab056dde43f39b6b70051e946659f7012db505b",
+      "verdict": "correct"
+    },
+    {
+      "program_sha256": "b4d1bec5a428125d75ab5ef52cf837cfff0ee7c48888377c15bd51af7d9ba064",
+      "review_record_sha256": "a12ab76edbafce7ea16055bc66d26f8bbef9384f79d85271cc6f75913bc97722",
+      "verdict": "correct"
+    },
+    {
+      "program_sha256": "d18582a1b9ab7bc7fb7baba69a03cc14847adb506d46c736fed6c0483aaed0a9",
+      "review_record_sha256": "a18147109188a627ba0fff6e4c4786992b2c9d75eaf21a5efa6c59105777c7de",
+      "verdict": "correct"
+    },
+    {
+      "program_sha256": "a35aba09897fa431521e8bedf6ebd49df54f6af6ddae02d0ba2baa3cccadbe80",
+      "review_record_sha256": "a1f4218f42f82cf2c200bb86c32d427412ce810b4263b4482ae730ac29980984",
+      "verdict": "faulty"
+    },
+    {
+      "program_sha256": "e53d3bb4466fd8d95ce7349a62e2d4c119d9674bf70187ff6df3a98d07466a53",
+      "review_record_sha256": "a2515690164cf19d4d984dc0ff0d8109e132304eb36f0765737db59faa254b4a",
+      "verdict": "faulty"
+    },
+    {
+      "program_sha256": "06c563264500ef1b22d51aa6f605ab2d589d1f4ed848d005aaf10b3ebff0756c",
+      "review_record_sha256": "a29c5643c4c21efca95e9c173c628ac54a080b386fbc071bca4432ec8b155c14",
+      "verdict": "correct"
+    },
+    {
+      "program_sha256": "e1416efbce516ac71a4b95633831b47f3db4cbf50fb2c7b5d54a7d38a6947059",
+      "review_record_sha256": "a3de2d24634b892c55b51aa975e70d6993017d84838da6066b425f3413f48d76",
+      "verdict": "faulty"
+    },
+    {
+      "program_sha256": "d250ca5943ecd5841b01a75e6770a10982d8c8999460b814640a8224203a4db3",
+      "review_record_sha256": "a5edddfcd2789fe462289bd740966e48f7afd28b9666c30a20db4bdb2407539b",
+      "verdict": "correct"
+    },
+    {
+      "program_sha256": "6b36f4aace800964940ff3a7df5d9f8249aabb0c754d78e17826f8b7ad7d402f",
+      "review_record_sha256": "a628aa75bd9905b52c1123756a96243a75074e5ec66d060e1ed0b777c3bae71d",
+      "verdict": "correct"
+    },
+    {
+      "program_sha256": "ee8a44e02db57a19beb550c5fa6bea5449bf01edcee83d5607d60de0b7859708",
+      "review_record_sha256": "a687ae2e5d467dcb205682ca6979687374ed347423d434c4ec4d59ac1a9dbfef",
+      "verdict": "correct"
+    },
+    {
+      "program_sha256": "828f49d8c277351ac38ec5c1299d6dc7757d4d53c9dabb5f8b1ae8f54c0a5bbc",
+      "review_record_sha256": "a82e357114478807d39a1ee0552a16c749ca601f00e0aff05b2591bd57162f71",
+      "verdict": "correct"
+    },
+    {
+      "program_sha256": "3f048a2d40b04f2d37dfec2e6b696e3c989683fdba2493815b30c88d620a922d",
+      "review_record_sha256": "a84b6c15a29e92512c400d1141f38d4a7ccd135acc956acf9d96bfea4b27b7a5",
+      "verdict": "correct"
+    },
+    {
+      "program_sha256": "b4d1bec5a428125d75ab5ef52cf837cfff0ee7c48888377c15bd51af7d9ba064",
+      "review_record_sha256": "a883b7363aa7ab01ace365c4cf328eec724b592186170fad4960233a414037c8",
+      "verdict": "correct"
+    },
+    {
+      "program_sha256": "bd05a3c8ad48e5e74a44d25deb5d1060a58d7d693b675c14423a41970586fdfa",
+      "review_record_sha256": "a9deb25a01c7dffdccba762f9a34e8873d8da7a3b9583138658d12e915c2682f",
+      "verdict": "correct"
+    },
+    {
+      "program_sha256": "81ca88aeb10439a2fca2ed1793963a373dc24a2e5b09af47c604bd192a5cec9f",
+      "review_record_sha256": "ac89570dbf66ccb11eafcef4971b17d7609d53bbc23603bd3161cee26d0dfaac",
+      "verdict": "faulty"
+    },
+    {
+      "program_sha256": "8e0f796219d7c5ba6e4e6f85938854354a2d686e61b8d824c192278d0e2cbf5d",
+      "review_record_sha256": "ad2b10e183432c8fc89d16c661fb6fccc4f27d6ff1e542a113c89834b6e46f47",
+      "verdict": "correct"
+    },
+    {
+      "program_sha256": "bcf9cff45a25266067368d8442bf76abeec754d7badbbed4f40ffbe20630cfca",
+      "review_record_sha256": "ad37c53000c62733f73ebd3bfb7f4618722b2e2a9e7b69e52a0af499da7ea83b",
+      "verdict": "correct"
+    },
+    {
+      "program_sha256": "75a491e982271e9dc41dd0ee1bc2ef0c141903c5d9b5b2de8616d70682f97188",
+      "review_record_sha256": "adc3122121511b3c3783099dc2cb7f3b1e0db3a0278672f5a5fef3de74506d58",
+      "verdict": "correct"
+    },
+    {
+      "program_sha256": "85da030a77ff39adc7840982789633cc29f04cdd7625103a04b7ee0cfa0d01ad",
+      "review_record_sha256": "adec2146966dbfac830ad0043239542815cbaca6ba624342c94a97308af97b25",
+      "verdict": "correct"
+    },
+    {
+      "program_sha256": "67732ec8455b8a91061fc2e1c3e759769d87bd20bf2f0b4cae2ae4a02f12df77",
+      "review_record_sha256": "af7b54a53b54c92dbc7ce47bef70a3acac3c99b6c3fafe9fc3686b502dc25da8",
+      "verdict": "correct"
+    },
+    {
+      "program_sha256": "19a5a9b61ccc9cb8d51be876839ac6315c1b01171dc8018ba9449109f4d9fe87",
+      "review_record_sha256": "b06b607ae8d964fcf52b4283b8f0926e8f94d4eb2684103227336469938cdb33",
+      "verdict": "faulty"
+    },
+    {
+      "program_sha256": "59b08077acff1aa0d96551b70ee0b94b7fe267c0fda7f34ff9214a4eadac9a28",
+      "review_record_sha256": "b0b64a46c5ea2c9947093986c9a2a89d9cf6a457b038f62ecf6e4c8140219157",
+      "verdict": "faulty"
+    },
+    {
+      "program_sha256": "be3620ec2a6d93163d1c9245177b0c982856b41b4ff866f40b88157460ccfd1b",
+      "review_record_sha256": "b1f6d8c99efd2e6610100fdaffa44f7cac4e4497ab96667051d4ef2619fe2362",
+      "verdict": "correct"
+    },
+    {
+      "program_sha256": "e53d3bb4466fd8d95ce7349a62e2d4c119d9674bf70187ff6df3a98d07466a53",
+      "review_record_sha256": "b4137f2c6fc8d30f4e6a1483f56930f62ad47a592a8c6f82d644e401d8a4d563",
+      "verdict": "faulty"
+    },
+    {
+      "program_sha256": "d11ecb5135fe43662e0337df09cd54d864d3c505527fcb1f08b0660d269dceed",
+      "review_record_sha256": "b471841be49b89703c0be2f3399f2b08ae22238c4e3c608719ea9e714cd2ed36",
+      "verdict": "correct"
+    },
+    {
+      "program_sha256": "54f5e26116314d542cf921c306d4b883491459bd587ea19d50e628088b00d31b",
+      "review_record_sha256": "b4f918ec82b4ccb85bbdee7a8ea078d16e92a1d512abe1bce79bb5db101c9942",
+      "verdict": "faulty"
+    },
+    {
+      "program_sha256": "85da030a77ff39adc7840982789633cc29f04cdd7625103a04b7ee0cfa0d01ad",
+      "review_record_sha256": "b5fab8310b4af8c3352e0e851ed6d85337c50b4b1738b16a49ed4904474be895",
+      "verdict": "correct"
+    },
+    {
+      "program_sha256": "e6a01cd0a996a873411a5c3e0fd3462ae038f9e90b8a4d8c36307412afc75856",
+      "review_record_sha256": "b6afe52aeddb0ed94fa0683dd21d03733e9583302ea8a3d46867a6446e0564e1",
+      "verdict": "correct"
+    },
+    {
+      "program_sha256": "42a3c75bc4c33742cb6dfc21aecfd6bf62f04ef72e7689a64ebf921f1c19d999",
+      "review_record_sha256": "b9bcf294f428550e67fa15b81acd24cc26e10a87a61f3ddb92c2cc1312d51c3b",
+      "verdict": "correct"
+    },
+    {
+      "program_sha256": "b9f439ca933ccd6be97c1ef2cf49ee32584ebe4dd3dc75cb6d53dc071f7bbf13",
+      "review_record_sha256": "ba2eab6e75da29320a90a1a67124ccb1b882f20828122a05d9aa7c89738291f5",
+      "verdict": "faulty"
+    },
+    {
+      "program_sha256": "603ec5be5f91650d799cf18d3eaa0e2f5d1b680982b83041c8f4505c4a4dee76",
+      "review_record_sha256": "ba82592d2b1694c59195264c320c66f4d2b8735a35021eaed7a67c39c18d588c",
+      "verdict": "faulty"
+    },
+    {
+      "program_sha256": "50f6050bed31097fd552884150a5f821b78df95a018da5751dc9930734804861",
+      "review_record_sha256": "bad8ab01cb0f190003ff16e5b4b8a9b423f3952f7b31ca64f704bccdcccb9e8f",
+      "verdict": "faulty"
+    },
+    {
+      "program_sha256": "7fcfe297bac3f3cead2164d311f56f117d7543ed4a65b90af73b8d7d4a7be27a",
+      "review_record_sha256": "bc0e9c270fd5a037c722618d11a9596e6f4100779e3492abbcf00c7ae7e97a45",
+      "verdict": "correct"
+    },
+    {
+      "program_sha256": "bcdd1cca539f25e2badf58756833b52382f62362a54208d0a70003bf5655891f",
+      "review_record_sha256": "bc3fc69858400b0d47bafaed812fbc345f3654a579b81cccb8972b588b6c1f2a",
+      "verdict": "faulty"
+    },
+    {
+      "program_sha256": "a4caa3b59448d8984f2f9fa0dc62068e6674002effab66995ae1600d1854576a",
+      "review_record_sha256": "bccab89fcfdc8961c51da6a0322619c56b7dc6097622e209b6f4b9302ccd8c67",
+      "verdict": "correct"
+    },
+    {
+      "program_sha256": "b7ae6a37feca453ef212c9638a1be2306b6b187549affd8c3205574b2bf36b59",
+      "review_record_sha256": "bdc1e0aad7fd14886d127bc39d7205c2bb8c478f0afad993b59b55ab095ce444",
+      "verdict": "correct"
+    },
+    {
+      "program_sha256": "0a35cfb1b3bee928a7a7b529ad122c6077d31a64cca9c91d113136712f27c383",
+      "review_record_sha256": "bdc8b05df34e6014f26ab35b3aaf5b5cce16234a0493059a36d341c70856e80a",
+      "verdict": "faulty"
+    },
+    {
+      "program_sha256": "018b75d0c28e1b82859c36710a16c45fa247a941e739e7676bb7f1f3ad5b01df",
+      "review_record_sha256": "be301d87054fda888284ad5d97a0999fad15674ace959fc5be1762615cfe4da2",
+      "verdict": "correct"
+    },
+    {
+      "program_sha256": "f830f8b4ecf84bee972e26b7a13b5983f945f5859f5bcd3d03515d6800717aea",
+      "review_record_sha256": "c245c0f52a964be3cf19a76fde588f21a6254bab584d55c261667fa4c76d1dbc",
+      "verdict": "correct"
+    },
+    {
+      "program_sha256": "69634ff0ea30a7166da43eccb3b7e2e85012248c7a6bb5ea931fac2451b71d81",
+      "review_record_sha256": "c2715cfdb76ec2c1eb7893eb177df262a4d56ed266be3ef77d696700f3affac6",
+      "verdict": "correct"
+    },
+    {
+      "program_sha256": "27690c517a8cd59208ec7bf02046e516ea954489d1eab2eaf174cc1ce5a2ae5b",
+      "review_record_sha256": "c545d49531cbc370c126b9b34179167c00bebf446b1c58fe0d94a61955cd3f41",
+      "verdict": "faulty"
+    },
+    {
+      "program_sha256": "22d87c50c18f5f493ec732922a3591e8bbe8ef1802c0378d89e25d2b4cb937a6",
+      "review_record_sha256": "c7878f7d0ae86ec6ded811ccd6be812d1b911d2655d1ed7526c4f89105376273",
+      "verdict": "correct"
+    },
+    {
+      "program_sha256": "1dfc882f9009b2bee56fed6585f7df925d62e976d081b13bb8ba8d8f37ccb2fd",
+      "review_record_sha256": "ca262c74ea7624a2beec33d960b6ca3e319bae0b69575c99ce720c203ca45e26",
+      "verdict": "correct"
+    },
+    {
+      "program_sha256": "8e15255b06fedb771efd3c955cf6961ceab47fa7f86021f6a85c3820d67090d9",
+      "review_record_sha256": "ca594814e936e57fccf96e4bbed18363de3485764ff54d8227c76cd275bef190",
+      "verdict": "faulty"
+    },
+    {
+      "program_sha256": "357630cb24bb2396ce85d2e170614e005ab0ac8afe1d0ad8c3b12f1039bb294f",
+      "review_record_sha256": "caf4a0a89a686dc4edc468c1b281aba3cc3ff4241df5b14405fff42f8a72f302",
+      "verdict": "correct"
+    },
+    {
+      "program_sha256": "1285660bfa6c338a4e9fd1ba735f49ea5fcdfeaed1ca689b8f020bcdce51cd8f",
+      "review_record_sha256": "cc0e6e31dd71c866913368c5a9e56d6707213415d67763af53555b687b949cf2",
+      "verdict": "correct"
+    },
+    {
+      "program_sha256": "de93fd55f8e150ef67bf8774251853bf5f4a5d41c0131f60af76291b418dcd18",
+      "review_record_sha256": "ceac6df73a1eb69e8251c7f0d99ddac809a30e54bdd29fdea43c4f77bba74917",
+      "verdict": "correct"
+    },
+    {
+      "program_sha256": "1dfc882f9009b2bee56fed6585f7df925d62e976d081b13bb8ba8d8f37ccb2fd",
+      "review_record_sha256": "d14c091fa69a4ba28365ad8c84ed8d5f8992aa4787fbac77cd32c32629797529",
+      "verdict": "correct"
+    },
+    {
+      "program_sha256": "9c2a88471b7ea5de345a1d85b2315c7458de4bda7d5c1ed4d83f555b56f49c40",
+      "review_record_sha256": "d18f69014ba240e09bea1575dfdc169d13b8ad0fa1e3a04f2e9342de6f20fbe9",
+      "verdict": "materially_ambiguous"
+    },
+    {
+      "program_sha256": "1613fc18191b4852e64bab564900cd97cd901fe5f052aa49cf3040e13ab3323a",
+      "review_record_sha256": "d1fc5129218a4a898cfd6e8706815ddba9098c4c681e3171663089fbcc8a0837",
+      "verdict": "faulty"
+    },
+    {
+      "program_sha256": "9ebedf337cf633c7b6f674693c922a48e387df44d3756d9595c658a92c4169da",
+      "review_record_sha256": "d26583d16cb9940cc4202b8c87baf838d509c1d46aec278fd9e80c958d4415b7",
+      "verdict": "faulty"
+    },
+    {
+      "program_sha256": "10f4fbcd9463ed1fddb715722af2c20e1b5dc6dbe1637f546e131a0d668d12b9",
+      "review_record_sha256": "d29fa225ba0b988f063a1969209aaafd0d3e15a21154020768058a9a866d352f",
+      "verdict": "correct"
+    },
+    {
+      "program_sha256": "9ebedf337cf633c7b6f674693c922a48e387df44d3756d9595c658a92c4169da",
+      "review_record_sha256": "d2a3105ac6f7bc0317c4f06ba29237591adddca8f57d8f9aebf558fc469ae480",
+      "verdict": "faulty"
+    },
+    {
+      "program_sha256": "0a79b58bca4895207f81641f025b28536bcdd4d806fc7d3a0fc2685530a16143",
+      "review_record_sha256": "d2c8292467aa91a5678672f60bb25a1199380f5968013e858d9a4b67a7af3314",
+      "verdict": "faulty"
+    },
+    {
+      "program_sha256": "d250ca5943ecd5841b01a75e6770a10982d8c8999460b814640a8224203a4db3",
+      "review_record_sha256": "d41f6a9a8a2964ae6f436dc922b418418a5522e87281566733321072c247edf9",
+      "verdict": "correct"
+    },
+    {
+      "program_sha256": "acede29ecf5dd3c74f9de51d9b1ec548d8b45e8c1c1f2407fc5c77d4d0397543",
+      "review_record_sha256": "d4eb228aa382cfa5ea0e020baf329ed239e89e47817ac3e01d827578e3a90c0c",
+      "verdict": "correct"
+    },
+    {
+      "program_sha256": "017cbef389047b3861fe44af8ecacedffc9997f04c3b5ad1ed66daf4e1fe9b27",
+      "review_record_sha256": "d53505be3dd462fb74fac9eef1dfcd2ebc0c940103affacbe682c88f713d392a",
+      "verdict": "correct"
+    },
+    {
+      "program_sha256": "373b79d274657ed266490eaaaca3bb74a349e5e9a090329c331d32ef202a3b83",
+      "review_record_sha256": "d58fdd34eeef963276a2e351184f3667a5e8884c1d67cf9b2d89e5bbf31b6898",
+      "verdict": "faulty"
+    },
+    {
+      "program_sha256": "16fd523c00bc903564db5a6c0e54314b54640a2ee9a868f73166d722927e5ab6",
+      "review_record_sha256": "d5e61d4c045825ffa7bc5a53b14465d127c2bdef184ee03d9ee66cc907bb6682",
+      "verdict": "faulty"
+    },
+    {
+      "program_sha256": "b0c65c90f2f255fcbae2bf1a4ef2dfb91ded7bbbc5e93a3d15bd7e33ee8d16ed",
+      "review_record_sha256": "d5ff72852719761129de46b761e912199a78486febe971e37c525801c2b2f804",
+      "verdict": "correct"
+    },
+    {
+      "program_sha256": "696d58dac28bfbd3901021a01e32bf71a1198c0eed48db9ea525d8a0c5fb5b9d",
+      "review_record_sha256": "d766762f4c7bf6e65cbad005faa9ea42fb11cc67d39619853fabe56d2025cfbf",
+      "verdict": "correct"
+    },
+    {
+      "program_sha256": "e01362575833c7e447c1870ab107f142eaa13f1a0b838ee4de6b015cf32cc569",
+      "review_record_sha256": "d7b7dd74e43af149b3eac6231ba710bc4d5d484b9d80d2e31957017e883de615",
+      "verdict": "faulty"
+    },
+    {
+      "program_sha256": "e3fad1d07405de7ce62137d0add120053cfc5ea4772eb5b68d5d7286d3ebb58b",
+      "review_record_sha256": "d901395c900bbb77e316b15b630ab384fac78a92142916e11d76daad56315c0e",
+      "verdict": "correct"
+    },
+    {
+      "program_sha256": "b9eba50983c9b999b39acba4261a3d2b79ca4b2e0c5507fcdd562190f7abd463",
+      "review_record_sha256": "d9cfa063957243b803de72509f0bef9995c676808308ae800ffad05720da1363",
+      "verdict": "faulty"
+    },
+    {
+      "program_sha256": "f3acdea76cc62de60aa444432b0c618ed35e07d652097d76ddcb29c7d25f5e9d",
+      "review_record_sha256": "da231d0956dccb2b0d64e09b35264353092f4338fcc68c9bdb6a50c1a69ab3b5",
+      "verdict": "correct"
+    },
+    {
+      "program_sha256": "a6130d77c9bdb340955b536aba4603dfa281af8eedd34d7b154785d1d487e8f8",
+      "review_record_sha256": "daab2aebedc4ce644721e7ab9eb7ba36275c1b9ca3aa0b8ae1bb1281ae5f3723",
+      "verdict": "correct"
+    },
+    {
+      "program_sha256": "a125f0327522991744ce2a71d6a372cc899a347ff36631b29cf38b5cb2d64428",
+      "review_record_sha256": "dbcd7bdd308a964f09ee38e26d472c9be6362d7b83915a45af0e9732cfddf36f",
+      "verdict": "faulty"
+    },
+    {
+      "program_sha256": "0d445f8b70fcb22c80f272d2924be3662cc0a943ca753c21517c09fe17c81785",
+      "review_record_sha256": "dbe6df7be925a6cfef23e88f478a9dfa752c943a4f0507e0018c47cdf9db8060",
+      "verdict": "faulty"
+    },
+    {
+      "program_sha256": "26050b443d2869e3b3412b69dfac681b49e5eece6a67a529d0e7fd8357786fc1",
+      "review_record_sha256": "dc0abfb327af12a9e64ace8e1952fea8e6356a822cabfef8f3159455bb0c5e60",
+      "verdict": "correct"
+    },
+    {
+      "program_sha256": "9a9ae3e98376084d37e5a941f482146bef9a7a12221e1d97e31fff30cba62006",
+      "review_record_sha256": "dccb47694c242351a221f1ea253ab8d879d4f65e68f7c8f28d64557958b7a7ab",
+      "verdict": "correct"
+    },
+    {
+      "program_sha256": "c7a7f64ed063bd8e6ada008d5f794ed221dd1c8659497bd026fec6544bae29c4",
+      "review_record_sha256": "dcfc2c9d38bd03da5803182e0fd697ea72c67ddf3ce5a0a5147b5af3899aa3e8",
+      "verdict": "correct"
+    },
+    {
+      "program_sha256": "e0cca05cb14c72e2695d6cf36a9a3f858ba3f5c1b1e817834e025ec51f9182b5",
+      "review_record_sha256": "df8f297162a6378b6c663c2a73445b25dadce2d589755ea9721e65be3587c347",
+      "verdict": "correct"
+    },
+    {
+      "program_sha256": "f3acdea76cc62de60aa444432b0c618ed35e07d652097d76ddcb29c7d25f5e9d",
+      "review_record_sha256": "e1216799e297862efa9c5ad516f72a6e554d8dea0cec455ccf8c324a10581d5f",
+      "verdict": "correct"
+    },
+    {
+      "program_sha256": "ea9eddb765b18059ed8cc355067e5d029bef63cb81b8c858b77805c1f313b180",
+      "review_record_sha256": "e17621041672af11bd968cce62145e9ac5d424490f42cffb5c9f31550d73db9e",
+      "verdict": "correct"
+    },
+    {
+      "program_sha256": "3d609e3b3cbde409e731e45a4d017e0de6062c67f2249f7c4bbe22e5792979e2",
+      "review_record_sha256": "e34ae5f2ee355a2e0e1030462753fd0e08170dfb313be091ea85a27af562ee35",
+      "verdict": "faulty"
+    },
+    {
+      "program_sha256": "7df0b14854a03497fb3147e5bded11bb8be76d1356be168ef39ea5b0c27824f1",
+      "review_record_sha256": "e44e85885144f73ccf38d63d7e9a6ebe02924619f5366b23c373762e8a71d671",
+      "verdict": "correct"
+    },
+    {
+      "program_sha256": "6a93a20bccd48b4034f2ee34815cf306234e6c55b73b591e61b7b49b45815386",
+      "review_record_sha256": "e533799edbe8384db9d1d9508fe669416bad79a6ee1396976c52cefd0b8e3d2c",
+      "verdict": "correct"
+    },
+    {
+      "program_sha256": "dde14df2138b5fccba72da6e63f952f1c25390f8bdbfbc6a61ad66251a0c0cd6",
+      "review_record_sha256": "e79f924851a00c93af73f54ada9e5b751db0a2d9cd16d20b8b04d3aa05cd77aa",
+      "verdict": "correct"
+    },
+    {
+      "program_sha256": "91f199105d46342cde82fff3e130007a74ba687b6805a566173ca97f0f1f487c",
+      "review_record_sha256": "e83e5a3da8f719a34d04e7eb0b5a452ed88a62f19f71c8dc8cc151dee025cf05",
+      "verdict": "faulty"
+    },
+    {
+      "program_sha256": "bbcd09972a44aba9f55103e31b7c929086e81f14c76c06fe3903c43ecb929ce8",
+      "review_record_sha256": "e88da1a4994d5d3ff11f880adedfa2aaa7f37374bdda3f245e2a5499d86cf622",
+      "verdict": "correct"
+    },
+    {
+      "program_sha256": "404c9381c69c68ccf8cda3140e4a56120135c2ffb7d03ef2bc5cf6ed4cef3602",
+      "review_record_sha256": "e9883c629c8dc7373bf4f4e9751520da353ea99de44ff973101be7c29f2f52f7",
+      "verdict": "correct"
+    },
+    {
+      "program_sha256": "c7a7f64ed063bd8e6ada008d5f794ed221dd1c8659497bd026fec6544bae29c4",
+      "review_record_sha256": "ebc87627efda26736e298e8c078129dbd261fa78e0fd9e5cac44fef2917c3cd2",
+      "verdict": "correct"
+    },
+    {
+      "program_sha256": "5aaeed6d041d1a17aef1fa1da06aee6ef9933a3a8c1847f8dae3dc067d3714a3",
+      "review_record_sha256": "ec1db3fe09553c25d8f431b456b1c5f4d9b954132778d3a3d586da97727954df",
+      "verdict": "materially_ambiguous"
+    },
+    {
+      "program_sha256": "154ac4e170a81b57f963002f466c075bfa667545c8f9d43a452776af1bd886c8",
+      "review_record_sha256": "ece56bc6bb2a2ed536a813953c3f591de8703ea11534b2329ed966aed2e27108",
+      "verdict": "correct"
+    },
+    {
+      "program_sha256": "9c0fe47d780a2ec109fec3e296c0c6abb0b69d1d82dc86ff8cfea968b96b5959",
+      "review_record_sha256": "ed48f9bf09bd8f5fcfe65597efbdf7abe27a4cc31c26082f000505adf27f27b5",
+      "verdict": "faulty"
+    },
+    {
+      "program_sha256": "f838f5848f83147ad269b5d30dc6be3d850a089127a30f738c7df81af7fb2a54",
+      "review_record_sha256": "ede692f262ea526d7306785f5085c82ac4af30277ff2272c7c9cea3a44b02ee8",
+      "verdict": "faulty"
+    },
+    {
+      "program_sha256": "6a93a20bccd48b4034f2ee34815cf306234e6c55b73b591e61b7b49b45815386",
+      "review_record_sha256": "eee9c72ee1ebf89b7650924517f0065748c42cced1e3122b960214add852c30c",
+      "verdict": "correct"
+    },
+    {
+      "program_sha256": "d9543ce01fe9eeda5040dd9ab81dfaa9e67ce91d87444de394f63d9a82887fdd",
+      "review_record_sha256": "ef0ca0b7cd408cb05804660c95ef8fd1869a6db0f56971d7d98b191a83bc06b1",
+      "verdict": "faulty"
+    },
+    {
+      "program_sha256": "e6a01cd0a996a873411a5c3e0fd3462ae038f9e90b8a4d8c36307412afc75856",
+      "review_record_sha256": "f1dccdb337779f4f2bf63e48e440ee884d2ff5904bb62a23fc1f23f6eae1f3fc",
+      "verdict": "correct"
+    },
+    {
+      "program_sha256": "7a59540c00d1d0f8c0506930714697ea0fd47dba08d64805f35cc4fd31b4dd1b",
+      "review_record_sha256": "f1ff9b7a3dc92c7c4a91ba31aee233e2b05c09f7a1e0b1abd2842edceda4a1f6",
+      "verdict": "correct"
+    },
+    {
+      "program_sha256": "b6227f7fe395decaea1fe80fd22d4959f0eb92c7c8eb921b3c7ece92e6477714",
+      "review_record_sha256": "f2712e2fe0820e237ebb42ea9f24ac5177f2bf2cf49604d1c50b32cfc25ad1f6",
+      "verdict": "faulty"
+    },
+    {
+      "program_sha256": "ec8e00d32011bafd353e26694c39405b99cbd2ccbbac1e6d9a12eb6f672eb2b6",
+      "review_record_sha256": "f2d1e9382d084eea7f2a822a2306646c572c48325a5080ad1b64918b7aec5e11",
+      "verdict": "materially_ambiguous"
+    },
+    {
+      "program_sha256": "f72941de1b75a5fbd7f3123db96066bfc73eca13f7b79c1a970da0f91d04e760",
+      "review_record_sha256": "f30796e8c3b121d35c7ea20b41fe77d646b7490f719716d90c6464f6d198f00e",
+      "verdict": "correct"
+    },
+    {
+      "program_sha256": "23faa05525ec45daee55d5566e2a3a97f13549f44e58c61939cfc9fba1622737",
+      "review_record_sha256": "f33062ff2156bdef50d7890bb3b175ff5f2905c411610e93ebfc1233216a9b06",
+      "verdict": "correct"
+    },
+    {
+      "program_sha256": "ce4b437fdcb2174efb952e57f9d8049ecae5486afcf9ca1047c93e279e7eea44",
+      "review_record_sha256": "f5b8b43e778388ea72ae12665dd23a964fc343caba42b0db4dc19ce49570bb32",
+      "verdict": "faulty"
+    },
+    {
+      "program_sha256": "e728587b2a44a71f6abd9c0e7ed2eda4e304954f30122500685291d7c9872e23",
+      "review_record_sha256": "f70095d66c002ad82041e0e80409d9034b4bb59df7afe4dac8e8843c7ed70c51",
+      "verdict": "correct"
+    },
+    {
+      "program_sha256": "c58dc019705b1c1a9d5ba294e6a996cf7d8349a8b5fd697e13468325f88f1caf",
+      "review_record_sha256": "f776b0ff934d0a453f63f692b7e5e00afd4a1b4c8f4edb751529fad9bb3b260b",
+      "verdict": "faulty"
+    },
+    {
+      "program_sha256": "78f8f3bfee1346212a3f19e63f88a7d2f0bce98c895fba6ada7a11fd2fa0cd5a",
+      "review_record_sha256": "f9283905fc8037de3f42b5a52aaee1ce4ea2dc3d70203cfec997ae2e859e9357",
+      "verdict": "correct"
+    },
+    {
+      "program_sha256": "3c946328b4a5eab26b25c8ebe95ddbb948e1bbeeb7e12246f71f4f4625f5070d",
+      "review_record_sha256": "f965335a8f1d196867ed9963e3d85067bb84efea130aec223efe27cf98ba7a0a",
+      "verdict": "correct"
+    },
+    {
+      "program_sha256": "a1c78bc8e746779270c903661023393a88e32a701fc5da05b0b2572e34bbab3e",
+      "review_record_sha256": "f9c4f0c3c2dbc7c68e3376f57778815c048ac09d66bd9e21d6d24235485d64cf",
+      "verdict": "correct"
+    },
+    {
+      "program_sha256": "135311b6fa6c61f0f2bf56e5429d7bda25bfbbdd32fd250274eac23719ab0265",
+      "review_record_sha256": "fa0d75e18cbe908dd25795d6b1b28f8e8c7c21d8c933a253d80715d1bd618e57",
+      "verdict": "correct"
+    },
+    {
+      "program_sha256": "254588f70431fa2f7dbe2825529e4ac4a71a0e972b8cc4ec0ba51b074c9d6634",
+      "review_record_sha256": "fb24a586e01342f6e77ad6000f598371ab3327c4630c5c964001879d30752ec2",
+      "verdict": "correct"
+    },
+    {
+      "program_sha256": "95775f95243e7dfe353fff45ee37d5a199ab37346f270b9117522dd49f171da9",
+      "review_record_sha256": "fc485452b6144a9587abe82a20b9008f0836533a614317316c3789ba75e96d50",
+      "verdict": "correct"
+    },
+    {
+      "program_sha256": "8e0f796219d7c5ba6e4e6f85938854354a2d686e61b8d824c192278d0e2cbf5d",
+      "review_record_sha256": "fcba61bbe48b33205cfb212eb141196982b54cac9ffc8b0c8bd4db7ac3d88629",
+      "verdict": "correct"
+    },
+    {
+      "program_sha256": "acf4f7cbb164b9e8ac212709113193ba23069392ed2c6f732bd30618e172ed55",
+      "review_record_sha256": "fd4c454a129ad97d170ef92e66790e6193b5883b1cfeff89c17a24c59af58e08",
+      "verdict": "correct"
+    },
+    {
+      "program_sha256": "5b2d4f7e193f805c7def071eea7342d31a2606114814a542841d2baf79da1cb4",
+      "review_record_sha256": "fe2a229539320c224d680cd52036561fbff5828d15d2a591d156f66ac780eb7a",
+      "verdict": "faulty"
+    }
+  ],
+  "redaction": "Task names, reviewer identifiers, response content, rationales, timestamps, paths, and raw model metadata omitted.",
+  "schema": "masgain-v2-reviewer-index/v1",
+  "source_objects": [
+    {
+      "role": "program_review_plan",
+      "sha256": "54b842096f62abd87c669cd47bfcae1266b43b2a048a3b7937007a0ff1b4bb10"
+    }
+  ],
+  "stage": "panel_verdict",
+  "summary": {
+    "decision_rule_counts": {
+      "primary_agreement": 275,
+      "resolver_decision": 2
+    },
+    "final_records": 277,
+    "verdict_counts": {
+      "correct": 193,
+      "faulty": 80,
+      "materially_ambiguous": 4
+    }
+  }
+}

@@ -1,0 +1,56 @@
+{
+  "audit_method": "canonical_lineage_replay_and_redacted_index_reconciliation",
+  "conservation": {
+    "equation": "277 = 101 + 69 + 18 + 88 + 1",
+    "input_reviewed_programs": 277,
+    "qualified_programs": 170,
+    "recorded_attritions": 107,
+    "unaccounted_programs": 0
+  },
+  "dispositions": {
+    "excluded": 107,
+    "exclusion_reasons": {
+      "duplicate_program_source": 88,
+      "independent_test_nonpass": 1,
+      "review_plan_exclusion": {
+        "clean_panel_verdict_faulty": 1,
+        "independent_inputs_not_distinct_across_reviewers": 13,
+        "materially_ambiguous_verdict": 4,
+        "total": 18
+      }
+    },
+    "infrastructure_failure": 0,
+    "qualified_clean": 101,
+    "qualified_fault": 69,
+    "unresolved": 0
+  },
+  "evidence": {
+    "independent_test_run_binding_sha256": "3a6226c093c3893e6892e412ec948cf97be63b8d0420f0e1cfcbbe7d3c5eb448",
+    "program_review_plan_raw_sha256": "54b842096f62abd87c669cd47bfcae1266b43b2a048a3b7937007a0ff1b4bb10",
+    "promotion_content_sha256": "dc355a1f396251ad42a8b08d56725c72528552f5bab1c15e18ec571f5e41c168",
+    "selection_predecessor_content_sha256": "a6dc580565e1da9142df6e99afab53782df618977599027063430509a3bfc63e",
+    "selector_audit_tool_sha256": "a0f115a9e33daabf93bdbe22a01b875254abd3cc90ee13f1447a7ffff6ac8ba7"
+  },
+  "gate_transition": {
+    "aggregate_eligibility_decision": "170_qualified_and_107_excluded",
+    "attempt_status": "completed_without_model_calls",
+    "input_unit_type": "reviewed_program",
+    "output_unit_type": "qualified_clean_or_fault_program",
+    "predecessor_hashes": [
+      "54b842096f62abd87c669cd47bfcae1266b43b2a048a3b7937007a0ff1b4bb10",
+      "3a6226c093c3893e6892e412ec948cf97be63b8d0420f0e1cfcbbe7d3c5eb448"
+    ],
+    "reason": "Promotion retained only programs satisfying the typed clean or fault contract and recorded every other reviewed program as excluded.",
+    "successor_identity": "dc355a1f396251ad42a8b08d56725c72528552f5bab1c15e18ec571f5e41c168"
+  },
+  "methodology_validation": {
+    "final_gold_records": 0,
+    "main_comparison_calls_performed": 0,
+    "no_call_boundary_preserved": true,
+    "performance_claim": "none"
+  },
+  "receipt_id": "promotion-attrition-accounting-2026-07-19",
+  "receipt_sha256": "07ccfadd7e003833bb8203c5cb0e7c107ec6236c893840e20478dd78d9f0999f",
+  "recorded_date": "2026-07-19",
+  "schema": "masgain-v2-promotion-attrition-accounting-receipt/v1"
+}

@@ -1,0 +1,52 @@
+{
+  "adequacy_result": {
+    "achieved_power": 0.015753443828124995,
+    "decision": "STOP",
+    "maximum_power_at_discordance_bound": 0.14453125,
+    "paired_tasks": 8,
+    "target_power": 0.8,
+    "target_power_attainable": false
+  },
+  "correction_class": "primary_estimand_unit_accounting_error",
+  "gate_transition": {
+    "attempt_status": "completed_without_model_calls",
+    "eligibility_decision": "STOP",
+    "input_unit_type": "selected_main_item",
+    "output_unit_type": "pre_gold_mirror_candidate_upper_bound",
+    "predecessor_hashes": [
+      "ef9192884f95e4f271c1348848f15133a28a295c80a384b3a8c1be52d8b54980"
+    ],
+    "reason": "The primary estimand unit is a mirror task, not an arbitrary selected main item. The executed selection contains an upper bound of eight pre-gold mirror candidates.",
+    "successor_identity": "81b422f3f1a438193c03eeb34246e879d8cffcf6d103d3735e02814a3be61e26"
+  },
+  "methodology_validation": {
+    "final_gold_records": 0,
+    "main_comparison_calls_performed": 0,
+    "no_call_boundary_preserved": true,
+    "performance_claim": "none",
+    "superseded_receipt_preserved": true
+  },
+  "predecessor": {
+    "interpretation": "all_selected_items_counted_as_paired_tasks",
+    "paired_tasks": 51,
+    "path": "study/mas_review/run-records/SUPERSEDED/2026-07-18-selection-receipt-unit-accounting-error.json",
+    "raw_sha256": "ef9192884f95e4f271c1348848f15133a28a295c80a384b3a8c1be52d8b54980",
+    "receipt_sha256": "ee439ee8f884d34779dcaddd0a5fea689915e41770b347e209d8816641d28ffe",
+    "selection_id": "6eef88f3101cf0a06fc2736922c071af591c48dc376ebef43b013fc8c8c5a4c5",
+    "status": "superseded_invalid_unit_accounting"
+  },
+  "receipt_id": "unit-accounting-successor-2026-07-19",
+  "receipt_sha256": "2e00a562d2150d8c48213db98d0733b4af3f8495160a0f02cc2d977e8273d7c4",
+  "recorded_date": "2026-07-19",
+  "schema": "masgain-v2-unit-accounting-successor-receipt/v1",
+  "successor": {
+    "interpretation": "mirror_tasks_are_primary_estimand_units",
+    "paired_tasks": 8,
+    "path": "artifact-v2-refresh/receipts/corrected-selection-receipt.json",
+    "primary_unit": "mirror_task",
+    "raw_sha256": "7a25fc749c9bacdad26bcae70b46c9cf26a0c6a2e5a807827eb4c7a1ec2c3e7a",
+    "receipt_sha256": "a9c5a30679bdec9c8949e9467991bdaec085a7e1aa3da3ce2de9d0b7c8d5670a",
+    "selection_id": "81b422f3f1a438193c03eeb34246e879d8cffcf6d103d3735e02814a3be61e26",
+    "status": "corrected_stop_bound"
+  }
+}

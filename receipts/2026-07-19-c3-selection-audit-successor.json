@@ -1,0 +1,196 @@
+{
+  "schema": "masgain-v2-selection-lexicographic-audit/v1",
+  "audit_id": "c3-primary-unit-first-selection-audit-2026-07-19",
+  "recorded_date": "2026-07-19",
+  "purpose": "Successor audit of the historical evidence-constrained pilot selector. The historical receipt and executed selection are preserved and are not overwritten.",
+  "predecessor": {
+    "repository_path": "run-records/DEVIATIONS/2026-07-18-c3-evidence-constrained-pilot.json",
+    "file_sha256": "77164ee6445723cfa1fd5c7583701705ac156a19e20add9fff7b1794a2f36dab",
+    "content_sha256": "a6dc580565e1da9142df6e99afab53782df618977599027063430509a3bfc63e"
+  },
+  "verified_lineage": {
+    "clean_archive_sha256": "f0a4e872afab2e43e37757e0e6a7d593ac19a3721e7a2e9ae8f1bb188c5194d8",
+    "freeze_id": "8a4bfdb1d01a28df622a388b1257a5a0c5c2c4669f3b2398a604aae1dc10616f",
+    "promotion_sha256": "dc355a1f396251ad42a8b08d56725c72528552f5bab1c15e18ec571f5e41c168",
+    "config_sha256": "5c7563e5c2a47b0a79b2d54c1e75d75e951e275f40dc0472c100ac60834d5582",
+    "challenge_pool_sha256": "c5a4ebf89fe9ddf3fd9dd7e2ff6c3e81732bf8988b0f7e0f85eb9a8436cc408d",
+    "locked_order_sha256": "486b03d8422f947d6664d7dca074dce8799a373e100b8783ecbee7114a3857cf"
+  },
+  "verified_evidence": {
+    "qualified_clean_programs": 101,
+    "qualified_fault_programs": 69,
+    "raw_program_option_task_counts": {
+      "both_clean": 45,
+      "both_faulty": 9,
+      "mirror": 15
+    },
+    "eligible_task_counts_after_identity_reservations": {
+      "both_clean": 41,
+      "both_faulty": 9,
+      "mirror": 15
+    },
+    "identity_reservations": {
+      "development": 10,
+      "challenge": 10
+    },
+    "fixed_selected_quotas_in_all_requested_cases": {
+      "development": 10,
+      "challenge": 8
+    }
+  },
+  "method": {
+    "primary_unit": "mirror_task",
+    "supplemental_strata": [
+      "both_clean",
+      "both_faulty"
+    ],
+    "task_disjointness": true,
+    "reservation_policy_applies_to_all_requested_cases": true,
+    "objective_order": [
+      "maximize_primary_mirror_tasks",
+      "satisfy_case_specific_minimum_supplemental_strata",
+      "maximize_supplemental_tasks",
+      "deterministic_sha256_choice_rank"
+    ],
+    "solver": "exhaustive_dynamic_programming_over_verified_task_eligibility",
+    "tie_break": "Lexicographically minimize per-task SHA-256 choice ranks in the locked task order using the private selection seed, case identity, task identity, and assigned stratum. The receipt discloses none of those private values.",
+    "no_supplemental_constraint_semantics": "Both supplemental lower bounds are zero. Supplemental tasks remain optional and are maximized only after the number of primary mirror tasks is fixed at its maximum.",
+    "historical_locked_quota_semantics": "The historical locked quotas in the third requested case are exactly 26 both-clean tasks and one both-faulty task from the preserved pilot receipt. They are not the infeasible preregistered target quotas.",
+    "audit_tool_repository_path": "tools/selection_lexicographic_audit.py",
+    "audit_tool_file_sha256": "a0f115a9e33daabf93bdbe22a01b875254abd3cc90ee13f1447a7ffff6ac8ba7"
+  },
+  "historical_replay": {
+    "selector_objective": "maximize_total_main_items_then_mirror_tasks_under_sequential_reservation",
+    "selected_tasks": {
+      "development": 10,
+      "challenge": 8,
+      "both_clean": 26,
+      "both_faulty": 1,
+      "mirror": 8
+    },
+    "main_items": 51,
+    "primary_mirror_tasks": 8,
+    "reproduced_predecessor_counts": true
+  },
+  "requested_cases": [
+    {
+      "case_id": "no_supplemental_constraints",
+      "feasible": true,
+      "fixed_selected_quotas": {
+        "development": 10,
+        "challenge": 8
+      },
+      "minimum_supplemental_tasks": {
+        "both_clean": 0,
+        "both_faulty": 0
+      },
+      "exact_supplemental_tasks": null,
+      "selected_tasks": {
+        "both_clean": 26,
+        "both_faulty": 0,
+        "mirror": 15
+      },
+      "primary_mirror_tasks": 15,
+      "supplemental_tasks": 26,
+      "potential_main_items": 64,
+      "potential_main_model_invocations": 512,
+      "assignment_sha256": "398c3aba0a4efbac00187a09883209bbe6fcb0561fbe1a0cc1b54fffd2f5b4e8",
+      "tie_break_signature_sha256": "df3f197a41ac7c1f69446c8e2f6f3f11b3a9547566c354fc501fac4ca77ba79c"
+    },
+    {
+      "case_id": "one_per_supplemental_stratum",
+      "feasible": true,
+      "fixed_selected_quotas": {
+        "development": 10,
+        "challenge": 8
+      },
+      "minimum_supplemental_tasks": {
+        "both_clean": 1,
+        "both_faulty": 1
+      },
+      "exact_supplemental_tasks": null,
+      "selected_tasks": {
+        "both_clean": 26,
+        "both_faulty": 1,
+        "mirror": 14
+      },
+      "primary_mirror_tasks": 14,
+      "supplemental_tasks": 27,
+      "potential_main_items": 63,
+      "potential_main_model_invocations": 504,
+      "assignment_sha256": "1959e2b4e7a1c5c46600358f5136ac081b17fa7098c55c2bdb7bfd7bca79f514",
+      "tie_break_signature_sha256": "133c30120cae4fac01b103f469a0ba2a974c7ef58c1995d858f45d54dd650c91"
+    },
+    {
+      "case_id": "historical_pilot_locked_supplemental_quotas",
+      "feasible": true,
+      "fixed_selected_quotas": {
+        "development": 10,
+        "challenge": 8
+      },
+      "minimum_supplemental_tasks": {
+        "both_clean": 26,
+        "both_faulty": 1
+      },
+      "exact_supplemental_tasks": {
+        "both_clean": 26,
+        "both_faulty": 1
+      },
+      "selected_tasks": {
+        "both_clean": 26,
+        "both_faulty": 1,
+        "mirror": 14
+      },
+      "primary_mirror_tasks": 14,
+      "supplemental_tasks": 27,
+      "potential_main_items": 63,
+      "potential_main_model_invocations": 504,
+      "assignment_sha256": "1db9c2dd80a4fce21d440b8df1198ecdeb0a2a76c9f60e599dd058973f0a2022",
+      "tie_break_signature_sha256": "d3605f48dad9bc8104517b1f223e6856eb024a7e5b3300b95dea5e235f7dc55e"
+    }
+  ],
+  "locked_protocol_quota_diagnostics": {
+    "scope": "Supplemental quotas only. Challenge and development identities remain reserved, so their selected quota does not change the mirror ceiling.",
+    "preregistered_target": {
+      "exact_supplemental_tasks": {
+        "both_clean": 10,
+        "both_faulty": 10
+      },
+      "feasible": false,
+      "reason": "Only nine both-faulty-capable tasks exist after qualification."
+    },
+    "preregistered_minimum": {
+      "exact_supplemental_tasks": {
+        "both_clean": 8,
+        "both_faulty": 8
+      },
+      "feasible": true,
+      "maximum_primary_mirror_tasks": 7,
+      "assignment_sha256": "7c63ab41af6e8117c2bc3137e9417f70e0b0e22638269758393c78ae2d0a4327",
+      "tie_break_signature_sha256": "675b72e6a90b71e41e1e293b9dfa070830bac83a3e12165bb939ac6e4e72571d"
+    }
+  },
+  "finding": {
+    "historical_eight_truly_maximal_under_primary_unit_first_objective": false,
+    "maximum_without_supplemental_constraints": 15,
+    "maximum_with_one_per_supplemental_stratum": 14,
+    "maximum_with_historical_pilot_supplemental_quotas": 14,
+    "interpretation": "Eight was the executed historical selection under the total-item-first sequential selector. It was not the maximum number of pre-gold primary mirror candidates supported by the verified pool."
+  },
+  "limitations": [
+    "All three allocations are counterfactual re-audits of pre-gold eligibility. They do not replace the historical selection.",
+    "The mirror counts are upper bounds before final adjudication. Final gold could only decrease the number of primary estimand units.",
+    "No counterfactual allocation was exported and no main comparison call was entered."
+  ],
+  "execution_boundary": {
+    "canonical_private_lineage_reverified": true,
+    "proxy_variables_removed": true,
+    "setsid_used": true,
+    "runner_fast_used": false,
+    "model_calls_performed": 0,
+    "human_gold_records_read": 0,
+    "main_outputs_read": 0,
+    "command_shape": "env without HTTP proxy variables, then setsid python3 tools/selection_lexicographic_audit.py with verified private roots"
+  },
+  "receipt_sha256": "085501ee648ff59b6cacf900ff37e0ef936ad0457044e467254b9bd44fa3c0dd"
+}

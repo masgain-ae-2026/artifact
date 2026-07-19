@@ -1,0 +1,107 @@
+{
+  "adequacy_decision": {
+    "available_primary_estimand_units": 8,
+    "available_unit_status": "pre_gold_mirror_candidates_upper_bound",
+    "function": "A(N_star, delta, d, alpha, 1-beta)",
+    "inputs": {
+      "N_star": 8,
+      "alpha": 0.05,
+      "delta": 0.2,
+      "discordance_rate": 0.5,
+      "target_power": 0.8
+    },
+    "reason": "The available upper bound of eight pre-gold mirror candidates provides 0.015753443828124995 power under the locked alternative. Final adjudication could only reduce the primary-unit count.",
+    "result": "STOP"
+  },
+  "audit_classification": "independent_power_plan_audit_reproduced_with_repository_helper",
+  "audit_results": {
+    "minimum_pairs_for_target_power": 103,
+    "mde_at_target_power": [
+      {
+        "mde": 0.3169030957634706,
+        "paired_tasks": 40,
+        "rounded_three_decimals": 0.317,
+        "target_power": 0.8
+      },
+      {
+        "mde": 0.26351894673746423,
+        "paired_tasks": 60,
+        "rounded_three_decimals": 0.264,
+        "target_power": 0.8
+      }
+    ],
+    "power_by_paired_tasks": [
+      {
+        "paired_tasks": 8,
+        "power": 0.015753443828124995,
+        "rounded_six_decimals": 0.015753
+      },
+      {
+        "paired_tasks": 15,
+        "power": 0.09828469240541773,
+        "rounded_six_decimals": 0.098285
+      },
+      {
+        "paired_tasks": 40,
+        "power": 0.354433201725586,
+        "rounded_six_decimals": 0.354433
+      },
+      {
+        "paired_tasks": 60,
+        "power": 0.5249353223627345,
+        "rounded_six_decimals": 0.524935
+      },
+      {
+        "paired_tasks": 103,
+        "power": 0.8018189073387402,
+        "rounded_six_decimals": 0.801819
+      }
+    ],
+    "target_boundary_check": {
+      "power_at_102_pairs": 0.7976421823155178,
+      "power_at_103_pairs": 0.8018189073387402
+    }
+  },
+  "correction_statement": "An independent audit reproduced the recorded power of 0.0158 for eight pairs but found that the original 60-pair target would provide only 0.525 power under the stated alternative. The first integer sample size reaching 0.8 power is 103 pairs. We preserve the original target receipt and record this correction in a successor adequacy receipt.",
+  "historical_protocol_target": {
+    "canonical_content_sha256": "a6dc580565e1da9142df6e99afab53782df618977599027063430509a3bfc63e",
+    "field": "/pre_registered_allocations/target/mirror",
+    "path": "study/mas_review/run-records/DEVIATIONS/2026-07-18-c3-evidence-constrained-pilot.json",
+    "preservation": "preserved_unchanged_as_historical_protocol_target",
+    "registration_scope": "internal_protocol_record_without_external_anchor",
+    "resource_target_pairs": 60,
+    "raw_sha256": "77164ee6445723cfa1fd5c7583701705ac156a19e20add9fff7b1794a2f36dab",
+    "target_name": "original_resource_target"
+  },
+  "locked_adequacy_inputs": {
+    "discordance_rate": 0.5,
+    "paired_risk_difference_delta": 0.2,
+    "target_power": 0.8,
+    "two_sided_alpha": 0.05
+  },
+  "methodology_validation": {
+    "detected_before": "final_gold_and_main_comparison_calls",
+    "finding_class": "power_plan_adequacy_error",
+    "main_comparison_calls_performed": 0,
+    "no_call_boundary_preserved": true,
+    "performance_claim": "none",
+    "receipt_system_outcome": "caught_and_bound_correction",
+    "superseded_receipts_preserved": true
+  },
+  "recorded_date": "2026-07-19",
+  "receipt_id": "power-plan-adequacy-successor-2026-07-19",
+  "receipt_sha256": "924c0b30cc3757b2e52a3ffc16f8ab067dbdc3d19dd830b660df64112d12a149",
+  "schema": "masgain-v2-adequacy-successor-receipt/v1",
+  "statistics_implementation": {
+    "functions": [
+      "mcnemar_exact_power",
+      "mcnemar_mde_for_power"
+    ],
+    "invocation": "PYTHONPATH=src python3",
+    "method": "unconditional_exact_two_sided_mcnemar",
+    "path": "study/mas_review/src/mas_review/statistics.py",
+    "sha256": "5595dc03905049847cc7111cc72004a9ab31fb075392bc8948d85f2a0fda9aac",
+    "test_path": "study/mas_review/tests/test_statistics.py",
+    "test_sha256": "615feba4030d9f6040389fa526c368ffa1a73863c248a5b0d989a1cbbfd21a09"
+  }
+}

@@ -1,0 +1,157 @@
+{
+  "schema": "masgain-v2-r4-methodological-audit-successor/v1",
+  "receipt_id": "r4-methodological-audit-successor-2026-07-19",
+  "recorded_date": "2026-07-19",
+  "purpose": "Append-only R4 successor for chronology, analysis-unit terminology, allocation accounting, and independently reproduced adequacy values. The predecessor receipts remain byte-preserved.",
+  "predecessors": [
+    {
+      "role": "unit_accounting_successor",
+      "path": "study/mas_review/run-records/2026-07-19-unit-accounting-successor.json",
+      "raw_sha256": "911009b1d89cca2a6e8e95ce3e7aec25c1c8a6b7c4e7e9645903e243ceed7f5f",
+      "receipt_sha256": "2e00a562d2150d8c48213db98d0733b4af3f8495160a0f02cc2d977e8273d7c4"
+    },
+    {
+      "role": "selector_audit_successor",
+      "path": "study/mas_review/run-records/2026-07-19-c3-selection-audit-successor.json",
+      "raw_sha256": "1d632c1340be31d21df78a6c63d26337c2e54ef6fcc8819141b1e4a13a3af883",
+      "receipt_sha256": "085501ee648ff59b6cacf900ff37e0ef936ad0457044e467254b9bd44fa3c0dd"
+    },
+    {
+      "role": "power_plan_adequacy_successor",
+      "path": "study/mas_review/run-records/2026-07-19-power-plan-adequacy-successor.json",
+      "raw_sha256": "4ffc36525345e8d0872568b9b1300e48f249b1aebe8c316b53c1393bd589d2d1",
+      "receipt_sha256": "924c0b30cc3757b2e52a3ffc16f8ab067dbdc3d19dd830b660df64112d12a149"
+    }
+  ],
+  "chronology": {
+    "prospective": [
+      "gate_sequence",
+      "no_call_boundary"
+    ],
+    "retrospective": [
+      "typed_formalization",
+      "unit_accounting_audit",
+      "selector_reaudit",
+      "power_correction"
+    ],
+    "receipt_trail_role": "The preserved receipts did not autonomously detect the denominator error. They retained the unit identities, predecessors, and assumptions needed for the later audits and successor records.",
+    "protected_outputs_existed_at_correction": false,
+    "main_comparison_calls_performed": 0
+  },
+  "analysis_unit_accounting": {
+    "terminology": "mirror tasks are eligible primary analysis units aligned to the paired risk-difference estimand",
+    "historical_total_item_first_allocation": {
+      "mirror_candidates": 8,
+      "mirror_presentations": 16,
+      "both_clean_items": 26,
+      "both_faulty_items": 1,
+      "fixed_challenge_items": 8,
+      "main_items": 51,
+      "retention_from_identity_ceiling": "8/15"
+    },
+    "corrected_unit_first_under_pilot_quotas": {
+      "mirror_candidates": 14,
+      "mirror_presentations": 28,
+      "both_clean_items": 26,
+      "both_faulty_items": 1,
+      "fixed_challenge_items": 8,
+      "potential_main_items": 63,
+      "retention_from_identity_ceiling": "14/15"
+    },
+    "unit_first_without_supplemental_minima": {
+      "mirror_candidates": 15,
+      "mirror_presentations": 30,
+      "both_clean_items": 26,
+      "both_faulty_items": 0,
+      "fixed_challenge_items": 8,
+      "potential_main_items": 64,
+      "retention_from_identity_ceiling": "15/15"
+    },
+    "interpretation": "Eight is the pre-gold mirror count inside the executed historical allocation. It is not the primary-unit maximum of the verified pool. Fourteen is the corrected unit-first count under the same pilot quotas, and fifteen is the identity ceiling when supplemental minima are removed."
+  },
+  "adequacy_audit": {
+    "locked_inputs": {
+      "paired_risk_difference": 0.2,
+      "discordance_rate": 0.5,
+      "two_sided_alpha": 0.05,
+      "target_power": 0.8
+    },
+    "power_by_paired_tasks": [
+      {
+        "paired_tasks": 8,
+        "power": 0.015753443828124995,
+        "rounded_six_decimals": 0.015753
+      },
+      {
+        "paired_tasks": 15,
+        "power": 0.09828469240541773,
+        "rounded_six_decimals": 0.098285
+      },
+      {
+        "paired_tasks": 40,
+        "power": 0.354433201725586,
+        "rounded_six_decimals": 0.354433
+      },
+      {
+        "paired_tasks": 60,
+        "power": 0.5249353223627345,
+        "rounded_six_decimals": 0.524935
+      },
+      {
+        "paired_tasks": 103,
+        "power": 0.8018189073387402,
+        "rounded_six_decimals": 0.801819
+      }
+    ],
+    "mde_at_target_power": [
+      {
+        "paired_tasks": 40,
+        "mde": 0.3169030957634706
+      },
+      {
+        "paired_tasks": 60,
+        "mde": 0.26351894673746423
+      }
+    ],
+    "minimum_pairs_for_target_power": 103,
+    "all_attainable_n_le_15_inadequate": true,
+    "maximum_power_over_n_le_15": 0.09828469240541773,
+    "maximum_power_over_n_le_15_occurs_at": 15,
+    "independent_implementation": {
+      "path": "artifact-v2-refresh/audit/independent_power_enum.py",
+      "sha256": "ceb11836339e8d70a3a12622f6686cc52041197186ad93298a04c6247f000b05",
+      "standard_library_only": true,
+      "imports_repository_helper": false,
+      "method": "direct_trinomial_enumeration"
+    },
+    "repository_helper": {
+      "path": "study/mas_review/src/mas_review/statistics.py",
+      "sha256": "5595dc03905049847cc7111cc72004a9ab31fb075392bc8948d85f2a0fda9aac",
+      "method": "conditional_decomposition_over_discordant_pairs"
+    },
+    "audit_note": {
+      "path": "artifact-v2-refresh/audit/INDEPENDENT-POWER-AUDIT.md",
+      "raw_sha256": "d18a37cb562aec9cc3200036df0f2fc92fec32b1e76544a414b240e2afd37388"
+    },
+    "result": "Both separately implemented exact enumerations reproduce every reported power and MDE value within the stated tolerance."
+  },
+  "superseded_characterizations": [
+    {
+      "predecessor_role": "unit_accounting_successor",
+      "old_characterization": "eight as a pool upper bound and mirror task as a primary estimand unit",
+      "successor_characterization": "eight candidates inside the historical allocation and mirror task as an eligible primary analysis unit"
+    },
+    {
+      "predecessor_role": "power_plan_adequacy_successor",
+      "old_characterization": "receipt system caught and bound correction",
+      "successor_characterization": "preserved receipt trail enabled a later independent audit and append-only correction"
+    }
+  ],
+  "execution_boundary": {
+    "final_gold_records": 0,
+    "main_comparison_calls_performed": 0,
+    "performance_claim": "none",
+    "decision": "STOP"
+  },
+  "receipt_sha256": "b33704c1a931f6ea2292e03cbda70cfbd497e35c7760ad28a9e6813ac4c64f1b"
+}
