@@ -119,8 +119,8 @@ M=12`. The mapping below counts `D=16, R=10, P=11, M=5` after this refresh.
 
 ## Not included
 
-- Current-title manuscript PDF or TeX. The coordinator will provide the PDF
-  after the V2 build; no earlier-title PDF remains in the package.
+- Manuscript TeX source. The PDF is in `paper/`; no earlier-title PDF
+  remains in the package.
 - The exact seven standalone validator inputs and expected-output manifest
   described by the current manuscript. The available refresh contained inline
   synthetic test construction instead.
