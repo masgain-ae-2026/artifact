@@ -4,10 +4,9 @@ This package supports the current manuscript, *Counting Before Calling:
 Receipt-Gated Analysis-Unit Accounting for a Stopped Multi-Agent Adjudication
 Study*.
 
-The `paper/` staging path intentionally has no tracked files. Two manuscript
-copies with an earlier title were removed. The coordinator will add the
-current-title PDF after the V2 build; this package does not claim a manuscript
-version binding until that happens.
+The `paper/` directory holds the current manuscript,
+`counting-before-calling.pdf`. Two manuscript copies with an earlier title
+were removed in an earlier commit.
 
 The package preserves redacted stage indexes and append-only receipts, an
 independent exact-power enumerator, the repository power helper and its focused
