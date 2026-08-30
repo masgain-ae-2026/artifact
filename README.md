@@ -1,129 +1,139 @@
-# MAS-GAIN 2026 anonymous V2 R4 artifact refresh
+# MAS-GAIN 2026 anonymous V2 artifact
 
-This directory stages the anonymous evidence needed to review the V2 paper.
-It contains the R4 paper in IEEEtran and acmart formats, the recorded protocol,
-the analysis plan, preserved historical records, five successor audit receipts,
-an independent exact-power enumeration, and seven redacted record-level indexes
-for the executed stages.
+This package supports the current manuscript, *Counting Before Calling:
+Receipt-Gated Analysis-Unit Accounting for a Stopped Multi-Agent Adjudication
+Study*.
+
+The `paper/` staging path intentionally has no tracked files. Two manuscript
+copies with an earlier title were removed. The coordinator will add the
+current-title PDF after the V2 build; this package does not claim a manuscript
+version binding until that happens.
+
+The package preserves redacted stage indexes and append-only receipts, an
+independent exact-power enumerator, the repository power helper and its focused
+tests, postmortem sensitivity code and stored output, a postmortem adequacy
+validator, and the available selector audit source. The validator and
+sensitivity analysis were implemented after the stopped study. They do not
+retroactively change the historical protocol or constitute study output.
 
 The indexes retain content hashes, hashed record identities, categorical
-dispositions, and countable summaries. They omit source code, task names,
-prompts, suite inputs, observed outputs, paths, timestamps, durations, model and
-machine identity, reviewer identity, responses, and rationales.
+dispositions, and countable summaries. They omit task names, prompts, suite
+inputs, observed outputs, local paths, timestamps, durations, model and
+machine identity, reviewer identity, responses, and rationales. The hashes are
+local commitments without an external timestamp or transparency anchor.
 
-The source-object hashes bind each extract to the preserved evidence closure.
-This gives the study an internally auditable trail and makes accidental or
-careless substitution hard. It is not tamper evidence against a motivated
-operator who controls that closure. The study used no external anchor.
+## Package map
 
-## Paper and protocol
+- `indexes/01-construction.json` through `indexes/07-independent-test.json`
+  are redacted record-level stage indexes. The program-review index includes
+  the aggregate primary-label matrix and kappa inputs without per-packet
+  labels.
+- `receipts/` contains the historical selection records and append-only
+  successor audits.
+- `audit/independent_power_enum.py` is the independent standard-library exact
+  power verifier.
+- `audit/postmortem_sensitivity.py` and
+  `audit/postmortem-sensitivity-output.json` provide a reproducible sensitivity
+  boundary check and its canonical-LF expected output.
+- `audit/postmortem-sensitivity-grid.md` preserves the complete sensitivity
+  grid and verdict-boundary output from the package audit.
+- `enforcement/` contains the postmortem typed-unit validator, schema fragment,
+  command-line boundaries, tests, and one-command reproduction.
+- `study/mas_review/src/mas_review/statistics.py` is the repository power
+  helper whose SHA-256 is pinned in the methodological successor receipt;
+  `study/mas_review/tests/test_statistics.py` is its focused test suite.
+- `study/mas_review/tools/selection_lexicographic_audit.py` is the available
+  selector audit source. It requires the private verified lineage and is
+  included for source inspection, not as a runnable public reproduction.
 
-- `paper/masgain26-submission.pdf` is the eight-page anonymous IEEEtran R4
-  paper. Its SHA-256 is
-  `cf5874d3d685ba0123f4b27bab56b52aacbc5f07668f1a259bf308ea6d1c5223`.
-- `paper/masgain26-submission-acm.pdf` is the eight-page anonymous acmart R4
-  paper. Its SHA-256 is
-  `db509b0a74b7ea29b6bb93439b05db1aba6f790909915d8cd225ea39f13c2ffb`.
-- `paper/design-v2.md` records the G3R and M4 protocol contract.
-- `paper/analysis-plan.md` records the primary estimand and analysis rules.
+## Reproduction
 
-## Receipts
+Run these commands from the repository root with Python 3.11 or later. They
+use only the standard library and make no network or model calls.
 
-- `receipts/2026-07-18-c3-evidence-constrained-pilot.json` is the canonical C3
-  deviation receipt. Its raw SHA-256 is
-  `77164ee6445723cfa1fd5c7583701705ac156a19e20add9fff7b1794a2f36dab`.
-- `receipts/corrected-selection-receipt.json` binds the canonical C3 content
-  hash, `a6dc580565e1da9142df6e99afab53782df618977599027063430509a3bfc63e`, and records the
-  corrected 51-item selection, eight paired tasks, 408 planned model calls,
-  zero calls performed by selection, and zero human-gold records.
-- `receipts/superseded-selection-receipt-unit-accounting-error.json` preserves
-  the historical receipt that incorrectly used all 51 selected items as paired
-  tasks. Its raw SHA-256 is
-  `ef9192884f95e4f271c1348848f15133a28a295c80a384b3a8c1be52d8b54980`.
-- `receipts/2026-07-19-unit-accounting-successor.json` links that preserved
-  predecessor to the corrected eight-mirror receipt and binds the stop. Its
-  raw SHA-256 is
-  `911009b1d89cca2a6e8e95ce3e7aec25c1c8a6b7c4e7e9645903e243ceed7f5f`.
-- `receipts/2026-07-19-promotion-attrition-accounting.json` conserves all 277
-  reviewed programs across 101 qualified clean programs, 69 qualified fault
-  programs, 18 plan exclusions, 88 duplicate-source exclusions, and one
-  independent-test non-pass. Its raw SHA-256 is
-  `cbae106c848f0cdde4772bfce3b5f55d8accd61307f352d5c41e9d41ca6e1ab9`.
-- `receipts/2026-07-19-power-plan-adequacy-successor.json` records the
-  independent audit of the original resource target. It preserves the stated
-  alternative and records power of 0.5249353223627345 at 60 pairs and the first
-  target-power sample size of 103 pairs. Its raw SHA-256 is
-  `4ffc36525345e8d0872568b9b1300e48f249b1aebe8c316b53c1393bd589d2d1`.
-- `receipts/2026-07-19-c3-selection-audit-successor.json` records the
-  lexicographic selector re-audit. It reports 15 mirror tasks without
-  supplemental minima and 14 under either one-per-stratum minima or the
-  historical quotas. The audit made no model call and did not enter final gold.
-  Its raw SHA-256 is
-  `1d632c1340be31d21df78a6c63d26337c2e54ef6fcc8819141b1e4a13a3af883`.
-- `receipts/2026-07-19-r4-methodological-audit-successor.json` is the append-only
-  R4 successor. It corrects the chronology and analysis-unit characterization,
-  reconciles the historical 8, corrected 14, and identity-ceiling 15 counts,
-  and binds both exact-power implementations. Its raw SHA-256 is
-  `f9fdf97c507281d16c868a9d4299e7d44f48e55277e0c6d89602a4970616472c`.
-  Its content receipt SHA-256 is
-  `b33704c1a931f6ea2292e03cbda70cfbd497e35c7760ad28a9e6813ac4c64f1b`.
+```console
+python -m unittest discover -s enforcement/tests -v
+python -m enforcement.reproduce
+python audit/independent_power_enum.py
+python -m unittest discover -s study/mas_review/tests -p test_statistics.py -v
+python -c "import pathlib,subprocess,sys; got=subprocess.check_output([sys.executable,'audit/postmortem_sensitivity.py']).replace(b'\r\n',b'\n'); expected=pathlib.Path('audit/postmortem-sensitivity-output.json').read_bytes(); print('PASS' if got==expected else 'FAIL'); raise SystemExit(got!=expected)"
+```
 
-The `pre_registered_allocations` key in the C3 receipt is an internal schema
-label. It does not claim an external registration or external anchor.
+Expected terminal results are `OK`, `RESULT PASS`, JSON with
+`"status":"PASS"`, `OK`, and `PASS`, respectively. The enforcement controls
+use synthetic interface data only for positive paths; they are not study
+evidence.
 
-## Reviewer indexes
+## Evidence grading
 
-Each JSON summary can be recomputed by counting its record array and grouping
-the stated categorical fields.
+`D` means directly recomputable from public package files, `R` means recorded
+in a preserved receipt, `P` means partially supported, and `M` means not
+included. The package audit before this refresh counted `D=13, R=10, P=7,
+M=12`. The mapping below counts `D=16, R=10, P=11, M=5` after this refresh.
 
-- `indexes/01-construction.json` proves 114 tasks, 228 jobs, 230 physical
-  attempts, 228 accepted sources, one retryable infrastructure attempt, and one
-  quota pause.
-- `indexes/02-mutation-freeze.json` proves 228 parents, 6,218 frozen mutations,
-  zero executions, and no outcome access.
-- `indexes/03-qualification.json` proves 456 clean suites, 6,218 mutation
-  suites, 6,674 terminal jobs, 417 clean-suite agreements, 39 clean-suite
-  disagreements, 692 mutation survivors, and 5,526 detections.
-- `indexes/04-witness.json` proves 692 input survivors, 58 exclusions, 634
-  terminal suites, 217 returned-output witnesses, and 417 other outcomes.
-- `indexes/05-program-review.json` proves 196 machine-clean programs, 81 fault
-  candidates, and 277 packets with two primary response hashes each.
-- `indexes/06-panel-verdict.json` proves 275 primary agreements, two resolver
-  decisions, 193 correct verdicts, 80 faulty verdicts, and four materially
-  ambiguous verdicts.
-- `indexes/07-independent-test.json` proves 180 terminal jobs with two fresh
-  cases each, 179 agreements, and one disagreement.
+## Claim-to-file mapping
 
-Promotion is supported by the C3 receipt, which records 101 qualified clean
-programs and 69 qualified fault programs. The historical total-item-first
-allocation contained eight pre-gold mirror candidates. The unit-first re-audit
-found 14 under the same pilot quotas and 15 without supplemental minima.
+| ID | Current-manuscript claim | Package evidence or absence | Grade |
+|---:|---|---|:---:|
+| 1 | Construction: 114 tasks, 228 jobs, 230 attempts, 228 accepted, one retryable and one quota pause | `indexes/01-construction.json` | D |
+| 2 | Freeze: 228 parents, 6,218 mutations, zero executions | `indexes/02-mutation-freeze.json` | D |
+| 3 | Qualification: 456 clean plus 6,218 mutation suites; 417/39 clean outcomes and 5,526/692 mutation outcomes | `indexes/03-qualification.json` | D |
+| 4 | Clean disagreements: base 7 and withheld-plus 32 | `indexes/03-qualification.json` | D |
+| 5 | Clean disagreements span 32 programs; seven programs have both kinds | Not included: program identities are redacted, so cross-kind grouping cannot be recomputed. | M |
+| 6 | Witness: 692 inputs, 58 exclusions, 634 analyzed, 217 returned outputs and 417 other outcomes | `indexes/04-witness.json` | D |
+| 7 | Program review: 196 machine-clean plus 81 fault candidates; 275 primary agreements and two resolver cases | `indexes/05-program-review.json`; `indexes/06-panel-verdict.json` | D |
+| 8 | Primary-label matrix `[[193,0,0],[1,80,1],[0,0,2]]`, agreement 0.9928, kappa 0.9831 | `indexes/05-program-review.json` aggregate-only matrix, marginals, and exact kappa fraction | D |
+| 9 | Both resolver disagreements occur on the same median task | Not included: task identity is redacted. | M |
+| 10 | Final panel: 193 correct, 80 faulty, four ambiguous | `indexes/06-panel-verdict.json` | D |
+| 11 | Independent test: 180 programs, two cases each, 179 agreements, one disagreement | `indexes/07-independent-test.json` | D |
+| 12 | The named disagreement example and its input/output strings | Not included: task identity, inputs, and outputs are redacted. | M |
+| 13 | Promotion conservation: 277 equals 101 clean plus 69 fault plus 18 plan exclusions plus 88 duplicates plus one nonpass | `receipts/2026-07-19-promotion-attrition-accounting.json`; `receipts/2026-07-19-unit-accounting-successor.json` | R |
+| 14 | Eighteen plan exclusions split 13 nondistinct, four ambiguous, one clean judged faulty | `receipts/2026-07-19-promotion-attrition-accounting.json` | R |
+| 15 | Resource ceiling 50, identity ceiling 15, historical execution 8, corrected re-audit 14 | `receipts/2026-07-19-r4-methodological-audit-successor.json`; `receipts/2026-07-19-unit-accounting-successor.json` | R |
+| 16 | Historical selection: 51 items, eight mirrors, 408 calls, zero gold/model calls | `receipts/corrected-selection-receipt.json`; `receipts/2026-07-19-unit-accounting-successor.json` | R |
+| 17 | Superseded 51-unit denominator and 0.4488 power | `receipts/superseded-selection-receipt-unit-accounting-error.json` | R |
+| 18 | Corrected selector re-audit: 63 items, 14 mirrors, 26 clean, one fault, 504 calls | `receipts/2026-07-19-c3-selection-audit-successor.json` | R |
+| 19 | Selector alternatives: 15/26/0/64/512 and 14/26/1/63/504 | `receipts/2026-07-19-c3-selection-audit-successor.json` | R |
+| 20 | Explicit call cap `C<=408` yields 8/26/1/51/408 | `receipts/corrected-selection-receipt.json`; `study/mas_review/tools/selection_lexicographic_audit.py` is source context, but the public package lacks the pinned lineage and explicit call-cap solver log. | P |
+| 21 | Target 10/10 is infeasible; minimum 8/8 permits at most seven mirrors | `receipts/2026-07-19-c3-selection-audit-successor.json` | R |
+| 22 | Forty-one flexible items split 26/6/9; raw assignment count 12,824,703,626,379,264 | `study/mas_review/tools/selection_lexicographic_audit.py` contains the DP eligibility and assignment method, but the pinned candidate projection and raw-count log are not included. | P |
+| 23 | Selector DP visits 3,750 states and 89,618 transitions; exact 26/1 visits 837 and 32,083 | `study/mas_review/tools/selection_lexicographic_audit.py` contains the DP and the successor receipt records its outcomes; the instrumented counts and pinned input set are not included. | P |
+| 24 | Five-run median 4.210 s and range 3.694--4.953 s | Not included: no original timing log was found. | M |
+| 25 | Call-cap-only allocation admits 15 mirrors in 304 calls | `receipts/2026-07-19-c3-selection-audit-successor.json`, `study/mas_review/tools/selection_lexicographic_audit.py`, and `audit/postmortem-sensitivity-output.json` support the 15-task ceiling and eight-calls-per-item arithmetic; the pinned candidate set is not included. | P |
+| 26 | Source universe 164, minus 40 Study 0 and 10 development tasks, leaves 114 | `indexes/01-construction.json` directly supports 114 only; the benchmark snapshot and identity-level exclusions are not included. | P |
+| 27 | Challenge pool 10, fixed challenge mirrors 8, development exclusions 10 | `receipts/2026-07-18-c3-evidence-constrained-pilot.json`; `receipts/corrected-selection-receipt.json` | R |
+| 28 | Configuration-derived remaining capacity is 1,184 calls | `audit/postmortem_sensitivity.py` and its stored output bind the source content hash and JSON pointer; the seed-bearing source configuration is not included. | P |
+| 29 | Exact McNemar assumptions alpha .05, delta .2, discordance .5, target .8, required 103 | `audit/independent_power_enum.py`; `audit/INDEPENDENT-POWER-AUDIT.md`; `receipts/2026-07-19-power-plan-adequacy-successor.json` | D |
+| 30 | Power at n=8/15/40/60/103 is .015753/.098285/.354433/.524935/.801819 | Same files as claim 29 | D |
+| 31 | Sensitivity required n values 61/103/144 and 408/46 for the stated pairs | `audit/postmortem_sensitivity.py`; `audit/postmortem-sensitivity-output.json`; `audit/postmortem-sensitivity-grid.md` | D |
+| 32 | MDE and n=8 attainability/max-power values | `audit/independent_power_enum.py`; `receipts/2026-07-19-power-plan-adequacy-successor.json` | D |
+| 33 | Pre-gold adequacy gate, protected call boundary, and seven-step procedure | `enforcement/adequacy.py`, `enforcement/main_call_runner.py`, and `enforcement/reproduce.py` directly exercise the postmortem gates; the current manuscript source for the seven-step presentation is not included. | P |
+| 34 | Pipeline figure from construction through adequacy and stop | `indexes/`; `receipts/`; figure source and current manuscript are not included. | P |
+| 35 | Validator schema/CLI, unit-type error, supported threshold 103, seven fixtures, zero protected calls/output | `enforcement/` supplies the validator, schema, two CLIs, tests, and reproduction at threshold 103 with zero protected calls/output. The exact seven standalone inputs described by the current manuscript were not found, and the shipped refresh tests are not a byte-for-byte realization of that seven-row table. | P |
+| 36 | Independent verifier does not import the repository helper; helper hash is recorded | `audit/independent_power_enum.py`; `audit/INDEPENDENT-POWER-AUDIT.md`; `study/mas_review/src/mas_review/statistics.py`; `study/mas_review/tests/test_statistics.py`; methodological successor receipt | D |
+| 37 | Stop precedes human gold and main execution; no performance claim | Corrected and unit-accounting receipts plus stage indexes | R |
+| 38 | Raw streams and administrative records remain outside the anonymous repository | This README and the redaction fields in the indexes | D |
+| 39 | Hashes are local and have no external anchor | This README | D |
+| 40 | Token use, latency, abstention, and API failures | Not included: these were not measured because the main protocol did not run. | M |
+| 41 | Decision chronology across 2026-07-15, 18, 19, and 20 | The eight dated receipts support part of the chronology; same-day ordering and an external timestamp are not included. | P |
+| 42 | Current seven tables and procedure source | `indexes/` and `receipts/` support numerical cross-checks; the current-title PDF/TeX and rendering/caption binding are not included. | P |
 
-## Independent exact-power audit
+## Not included
 
-- `audit/independent_power_enum.py` uses the Python standard library only and
-  does not import the repository helper. Its SHA-256 is
-  `ceb11836339e8d70a3a12622f6686cc52041197186ad93298a04c6247f000b05`.
-- `audit/INDEPENDENT-POWER-AUDIT.md` records the independently reproduced
-  powers, MDE values, all-count check for `n <= 15`, and both implementation
-  hashes. Its SHA-256 is
-  `d18a37cb562aec9cc3200036df0f2fc92fec32b1e76544a414b240e2afd37388`.
+- Current-title manuscript PDF or TeX. The coordinator will provide the PDF
+  after the V2 build; no earlier-title PDF remains in the package.
+- The exact seven standalone validator inputs and expected-output manifest
+  described by the current manuscript. The available refresh contained inline
+  synthetic test construction instead.
+- The selector's pinned candidate set, seed-bearing configuration, private
+  verified lineage, instrumented state/transition log, and five-run timing log.
+- The source benchmark snapshot and exact inclusion/exclusion task identities.
+- Per-packet primary labels, task identities, prompts, suite inputs/outputs,
+  local paths/times, reviewer/model/machine identities, responses, and
+  rationales.
+- Main-run operational metrics, because the study stopped before those calls.
+- An external timestamp or transparency anchor.
 
-## Family inventory hashes
-
-Construction, qualification, witness, and independent-test indexes also bind a
-family inventory. Files are ordered by their relative POSIX paths. Each inventory
-line contains the file SHA-256, two spaces, the relative path, and a line feed.
-The family hash is the SHA-256 of the concatenated lines. Relative paths begin
-with `attempts/`. No absolute path is retained.
-
-The four family hashes are as follows.
-
-- Construction with 230 assessment records
-  `de3317157b32c82abf561e04d3133c586c48477a1641f4a54728f91d7a57bf61`
-- Qualification with 6,674 result records
-  `3404b55cc8b3a615885216270ba2289ea9535281d0f49e88b2300147342826bf`
-- Witness with 634 result records
-  `16c2fa930e0c4c65fc1861d0919d14e2320619c2bf77ecb958b9dc8bafc1c815`
-- Independent test with 180 result records
-  `26e49d3183c2112d0be6dcd7cf3ec285a187de7837a98ad28854841a1441e085`
+The selector source is provided without its private inputs so that the method
+can be inspected without exposing redacted identities or seed material. No
+missing artifact has been inferred or reconstructed.

@@ -1,0 +1,72 @@
+{
+  "$schema": "https://json-schema.org/draft/2020-12/schema",
+  "$defs": {
+    "eligible_primary_analysis_unit": {
+      "additionalProperties": false,
+      "properties": {
+        "eligibility_decision": {
+          "const": "eligible"
+        },
+        "predecessor_receipt_sha256s": {
+          "items": {
+            "pattern": "^[0-9a-f]{64}$",
+            "type": "string"
+          },
+          "minItems": 1,
+          "type": "array",
+          "uniqueItems": true
+        },
+        "receipt_sha256": {
+          "pattern": "^[0-9a-f]{64}$",
+          "type": "string"
+        },
+        "schema": {
+          "const": "masgain-v2-typed-unit-receipt/v1"
+        },
+        "unit_id": {
+          "pattern": "^[a-z][a-z0-9_-]*:sha256:[0-9a-f]{64}$",
+          "type": "string"
+        },
+        "unit_type": {
+          "const": "U_A"
+        }
+      },
+      "required": [
+        "schema",
+        "unit_type",
+        "unit_id",
+        "eligibility_decision",
+        "predecessor_receipt_sha256s",
+        "receipt_sha256"
+      ],
+      "type": "object"
+    }
+  },
+  "additionalProperties": false,
+  "properties": {
+    "receipt_set_sha256": {
+      "pattern": "^[0-9a-f]{64}$",
+      "type": "string"
+    },
+    "receipts": {
+      "items": {
+        "$ref": "#/$defs/eligible_primary_analysis_unit"
+      },
+      "type": "array"
+    },
+    "schema": {
+      "const": "masgain-v2-typed-unit-receipt-set/v1"
+    },
+    "unit_type": {
+      "const": "U_A"
+    }
+  },
+  "required": [
+    "schema",
+    "unit_type",
+    "receipts",
+    "receipt_set_sha256"
+  ],
+  "title": "MAS-GAIN eligible-primary-analysis-unit receipt set",
+  "type": "object"
+}

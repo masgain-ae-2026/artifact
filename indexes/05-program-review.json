@@ -3071,6 +3071,59 @@
       "machine_clean": 196,
       "returned_fault_candidate": 81
     },
+    "primary_label_agreement_aggregate": {
+      "cohen_kappa": {
+        "denominator": 32721,
+        "numerator": 32167,
+        "value": 0.9830689771095015
+      },
+      "expected_agreement": {
+        "denominator": 76729,
+        "numerator": 44008,
+        "rate": 0.5735510693479649
+      },
+      "label_order": [
+        "correct",
+        "faulty",
+        "materially_ambiguous"
+      ],
+      "marginals": {
+        "primary_reviewer_1": [
+          193,
+          82,
+          2
+        ],
+        "primary_reviewer_2": [
+          194,
+          80,
+          3
+        ]
+      },
+      "matrix": [
+        [
+          193,
+          0,
+          0
+        ],
+        [
+          1,
+          80,
+          1
+        ],
+        [
+          0,
+          0,
+          2
+        ]
+      ],
+      "matrix_orientation": "rows=primary_reviewer_1, columns=primary_reviewer_2",
+      "observed_agreement": {
+        "count": 275,
+        "denominator": 277,
+        "rate": 0.9927797833935018
+      },
+      "provenance": "Aggregate-only counts derived from the two primary verdict labels in each bound review packet. Per-packet labels, reviewer identities, and response content remain omitted."
+    },
     "primary_response_hashes_per_packet": 2,
     "primary_response_records": 554
   }
